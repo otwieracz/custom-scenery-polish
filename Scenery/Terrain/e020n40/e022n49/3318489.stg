@@ -1,2 +1,15 @@
 OBJECT_BASE 3318489.btg
 OBJECT EP68.btg
+
+# e020n40/e022n49/3318489.stg
+OBJECT_SHARED /home/otwieracz/dev/custom-scenery-polish/Scenery/Models/Weremien/pagorek.ac 22.32046772 49.44745252 399.9822 0.0 0.0 -0.0
+OBJECT_SHARED Models/Airport/windsock.xml 22.32046406 49.44745169 399.6253 0.0 0.0 -0.0
+OBJECT_SHARED /home/otwieracz/dev/custom-scenery-polish/Scenery/Models/Weremien/LIME_hangarsemicircular.ac 22.31956523 49.44621926 402.1707 32.0 0.0 -0.0
+OBJECT_SHARED /home/otwieracz/dev/custom-scenery-polish/Scenery/Models/Weremien 22.31913767 49.44612234 411.1670 0.0 0.0 -0.0
+OBJECT_SHARED /home/otwieracz/dev/custom-scenery-polish/Scenery/Models/Weremien/dhc2-baroudeur.ac 22.31955154 49.44642979 406.5297 0.0 0.0 -0.0
+OBJECT_SHARED /home/otwieracz/dev/custom-scenery-polish/Scenery/Models/Weremien/ask21-red.ac 22.31985410 49.44719116 403.4202 0.0 0.0 -0.0
+OBJECT_SHARED /home/otwieracz/dev/custom-scenery-polish/Scenery/Models/Weremien/germansemidetached2.ac 22.32361773 49.44890633 377.8348 304.0 0.0 -0.0
+OBJECT_SHARED /home/otwieracz/dev/custom-scenery-polish/Scenery/Models/Weremien/germanvillagehouse3.ac 22.32333881 49.44868155 380.2129 32.0 0.0 -0.0
+OBJECT_SHARED /home/otwieracz/dev/custom-scenery-polish/Scenery/Models/Weremien/beczka.ac 22.32032613 49.44747415 401.1470 321.7 0.0 -0.0
+OBJECT_SHARED /home/otwieracz/dev/custom-scenery-polish/Scenery/Models/Weremien/picnic_table.ac 22.32042132 49.44738304 401.1305 0.0 0.0 -0.0
+OBJECT_SHARED /home/otwieracz/dev/custom-scenery-polish/Scenery/Models/Weremien/coleman-tow-tractor-odrab-low-poly.xml 22.31382037 49.44411945 477.0245 304.0 0.0 -0.0
