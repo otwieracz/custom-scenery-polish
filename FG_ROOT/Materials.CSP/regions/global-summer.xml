@@ -667,10 +667,16 @@
     <name>DryCropPastureCover</name>
     <name>DryCrop</name>
     <name>Greenspace</name>
+    <object-mask>Terrain.CSP/mixedcrop1.mask.png</object-mask>
+    <object-mask>Terrain.CSP/mixedcrop4.mask.png</object-mask>
+    <object-mask>Terrain.CSP/mixedcrop3.mask.png</object-mask>
     <texture-set>
-      <texture>Terrain.CSP/grass_marsh_hires.png</texture>
+      <texture>Terrain.CSP/mixedcrop1.png</texture>
+      <texture>Terrain.CSP/mixedcrop4.png</texture>
+      <texture>Terrain.CSP/mixedcrop3.png</texture>
       <texture n="11">Terrain.CSP/grass_dry2a_darker.png</texture>
       <texture n="14">Terrain.CSP/drycrop1-autumn.png</texture>
+      <texture n="14">Terrain.CSP/grass_marsh_hires.png</texture>
     </texture-set>
     <parameters>
       <hires_overlay_bias>-0.07</hires_overlay_bias>
@@ -682,8 +688,8 @@
     <object-mask>Terrain.CSP/drycrop2.mask.png</object-mask>
     <object-mask>Terrain.CSP/drycrop3.mask.png</object-mask>
     <!--<object-mask>Terrain.CSP/drycrop4.mask.png</object-mask>-->
-    <xsize>512</xsize>
-    <ysize>512</ysize>
+    <xsize>2000</xsize>
+    <ysize>2000</ysize>
     <solid>1</solid>
     <friction-factor>0.9</friction-factor>
     <rolling-friction>0.1</rolling-friction>

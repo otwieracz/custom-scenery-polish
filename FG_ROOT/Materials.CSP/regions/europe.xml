@@ -198,16 +198,23 @@
   </material>
 
   <material>
-    <effect>Effects/agriculture</effect>
+    <!-- <effect>Effects/agriculture</effect> -->
     <name>MixedCropPastureCover</name>
     <name>MixedCrop</name>
     <name>ComplexCrop</name>
-    <texture>Terrain.CSP/irrcrop-europe-autumn.png</texture>
+    <texture-set>
+      <texture>Terrain.CSP/countryside4.green.png</texture>
+      <texture n="11">Terrain.CSP/grass_dry2a_darker.png</texture>
+      <texture n="12">Terrain.CSP/grass_dry2a_darker.png</texture>
+      <texture n="11">Terrain.CSP/drycrop1-autumn.png</texture>
+      <texture n="11">Terrain.CSP/grass_marsh_hires.png</texture>
+    </texture-set>
     <parameters>
+      <hires_overlay_bias>-0.06</hires_overlay_bias>
       <rotation_flag>1</rotation_flag>
       <rotation_scale>2000.0</rotation_scale>
     </parameters>
-    <object-mask>Terrain.CSP/irrcrop-europe.mask.png</object-mask>
+    <object-mask>Terrain.CSP/countryside4.green.mask.png</object-mask>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>2000000.0</light-coverage>
@@ -277,7 +284,8 @@
     <name>MixedForest</name>
     <name>RainForest</name>
     <texture-set>
-      <texture>Terrain.CSP/naturalcrop1-autumn.png</texture>
+      <!-- <texture>Terrain.CSP/naturalcrop1-autumn.png</texture> -->
+      <texture>Terrain.CSP/grass_marsh_hires.png</texture>
       <texture n="11">Terrain.CSP/mixedforest-hires-autumn.png</texture>
       <texture n="12">Terrain.CSP/forest1b.png</texture>
       <texture n="13">Terrain.CSP/forest1c.png</texture>
