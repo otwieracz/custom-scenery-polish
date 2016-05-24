@@ -50,7 +50,7 @@
     <ysize>2000</ysize>
     <light-coverage>900000000.0</light-coverage>
     <wood-coverage>80000.0</wood-coverage>
-    <tree-texture>Trees/savanna-trees.png</tree-texture> 
+    <tree-texture>Trees.CSP/savanna-trees.png</tree-texture> 
     <tree-varieties>4</tree-varieties>
     <tree-height-m>50.0</tree-height-m>
     <tree-width-m>55.0</tree-width-m>

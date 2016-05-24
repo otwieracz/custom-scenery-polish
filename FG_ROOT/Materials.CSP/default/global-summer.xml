@@ -22,7 +22,7 @@
   <ysize>2000</ysize>
   <light-coverage>10000000.0</light-coverage>
   <wood-coverage>4000.0</wood-coverage>
-  <tree-texture>Trees/coniferous.png</tree-texture>
+  <tree-texture>Trees.CSP/coniferous.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>25.0</tree-height-m>
   <tree-width-m>15.0</tree-width-m>
@@ -41,7 +41,7 @@
   <ysize>2000</ysize>
   <light-coverage>10000000.0</light-coverage>
   <wood-coverage>4000.0</wood-coverage>
-  <tree-texture>Trees/coniferous.png</tree-texture>
+  <tree-texture>Trees.CSP/coniferous.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>25.0</tree-height-m>
   <tree-width-m>18.0</tree-width-m>
@@ -62,7 +62,7 @@
   <ysize>2000</ysize>
   <light-coverage>10000000.0</light-coverage>
   <wood-coverage>4000.0</wood-coverage>
-  <tree-texture>Trees/deciduous.png</tree-texture>
+  <tree-texture>Trees.CSP/deciduous.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>25.0</tree-height-m>
   <tree-width-m>15.0</tree-width-m>
@@ -82,7 +82,7 @@
   <ysize>2000</ysize>
   <light-coverage>5000000.0</light-coverage>
   <wood-coverage>4000.0</wood-coverage>
-  <tree-texture>Trees/mixed.png</tree-texture>
+  <tree-texture>Trees.CSP/mixed.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>25.0</tree-height-m>
   <tree-width-m>15.0</tree-width-m>
@@ -99,7 +99,7 @@
   <ysize>1000</ysize>
   <light-coverage>10000000.0</light-coverage>
   <wood-coverage>4000.0</wood-coverage>
-  <tree-texture>Trees/coniferous.png</tree-texture>
+  <tree-texture>Trees.CSP/coniferous.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>20.0</tree-height-m>
   <tree-width-m>15.0</tree-width-m>
@@ -115,7 +115,7 @@
   <ysize>1000</ysize>
   <light-coverage>10000000.0</light-coverage>
   <wood-coverage>4000.0</wood-coverage>
-  <tree-texture>Trees/coniferous.png</tree-texture>
+  <tree-texture>Trees.CSP/coniferous.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>15.0</tree-height-m>
   <tree-width-m>8.0</tree-width-m>
@@ -167,7 +167,7 @@
   <shininess>1.2</shininess>
   <light-coverage>20000000.0</light-coverage>
   <wood-coverage>12000.0</wood-coverage>
-  <tree-texture>Trees/mixed-shrub.png</tree-texture>
+  <tree-texture>Trees.CSP/mixed-shrub.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>2.0</tree-height-m>
   <tree-width-m>2.0</tree-width-m>
@@ -208,7 +208,7 @@
   <building-medium-ratio>0.6</building-medium-ratio>
   <building-large-ratio>0.2</building-large-ratio>
   <wood-coverage>250000.0</wood-coverage>
-  <tree-texture>Trees/mixed.png</tree-texture>
+  <tree-texture>Trees.CSP/mixed.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>25.0</tree-height-m>
   <tree-width-m>15.0</tree-width-m>
@@ -255,7 +255,7 @@
   <building-large-ratio>0.0</building-large-ratio>
   <building-medium-max-floors>4</building-medium-max-floors>
   <wood-coverage>5000.0</wood-coverage>
-  <tree-texture>Trees/mixed.png</tree-texture>
+  <tree-texture>Trees.CSP/mixed.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>25.0</tree-height-m>
   <tree-width-m>15.0</tree-width-m>
@@ -488,7 +488,7 @@
   <load-resistance>1e30</load-resistance>
   <object-group include="Materials.CSP/base/farm-buildings.xml"/>
   <wood-coverage>10000.0</wood-coverage>
-  <tree-texture>Trees/mixed.png</tree-texture>
+  <tree-texture>Trees.CSP/mixed.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>20.0</tree-height-m>
   <tree-width-m>12.0</tree-width-m>
@@ -518,7 +518,7 @@
   <load-resistance>1e30</load-resistance>
   <object-group include="Materials.CSP/base/farm-buildings.xml"/>
   <wood-coverage>10000.0</wood-coverage>
-  <tree-texture>Trees/mixed.png</tree-texture>
+  <tree-texture>Trees.CSP/mixed.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>20.0</tree-height-m>
   <tree-width-m>12.0</tree-width-m>
@@ -546,7 +546,7 @@
   <light-coverage>2000000.0</light-coverage>
   <object-group include="Materials.CSP/base/farm-buildings.xml"/>
   <wood-coverage>10000.0</wood-coverage>
-  <tree-texture>Trees/mixed.png</tree-texture>
+  <tree-texture>Trees.CSP/mixed.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>20.0</tree-height-m>
   <tree-width-m>12.0</tree-width-m>
@@ -566,7 +566,7 @@
   <light-coverage>2000000.0</light-coverage>
   <object-group include="Materials.CSP/base/farm-buildings.xml"/>
   <wood-coverage>10000.0</wood-coverage>
-  <tree-texture>Trees/mixed.png</tree-texture>
+  <tree-texture>Trees.CSP/mixed.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>20.0</tree-height-m>
   <tree-width-m>12.0</tree-width-m>
@@ -602,7 +602,7 @@
   <bumpiness>0.3</bumpiness>
   <load-resistance>1e30</load-resistance>
   <wood-coverage>150000.0</wood-coverage>
-  <tree-texture>Trees/mixed.png</tree-texture>
+  <tree-texture>Trees.CSP/mixed.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>20.0</tree-height-m>
   <tree-width-m>12.0</tree-width-m>
@@ -634,7 +634,7 @@
   <bumpiness>0.3</bumpiness>
   <load-resistance>1e30</load-resistance>
   <wood-coverage>5000.0</wood-coverage>
-  <tree-texture>Trees/mixed.png</tree-texture>
+  <tree-texture>Trees.CSP/mixed.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>20.0</tree-height-m>
   <tree-width-m>12.0</tree-width-m>
@@ -656,7 +656,7 @@
   <bumpiness>0.7</bumpiness>
   <load-resistance>10</load-resistance>
   <wood-coverage>4000.0</wood-coverage>
-  <tree-texture>Trees/mixed.png</tree-texture>
+  <tree-texture>Trees.CSP/mixed.png</tree-texture>
   <tree-varieties>8</tree-varieties>
   <tree-height-m>20.0</tree-height-m>
   <tree-width-m>12.0</tree-width-m>

@@ -5,36 +5,64 @@
 
   <material>
     <name>grass_rwy</name>
-    <!--<effect>Effects/airfield</effect>-->
     <effect>Effects/dirt-runway</effect>
+    
     <texture-set>
-      <texture>Runway/dirt_rwy.png</texture>
-      <texture n="16">Terrain.CSP/sand_hires_ochre.png</texture>
-      <texture n="17">Terrain.CSP/airport_grass2.png</texture>
+      <texture>Terrain.CSP/grass_green_hires-autumn.png</texture>
+      <texture n="16">Terrain/airport_grass2.png</texture>
+      <texture n="17">Terrain.CSP/pampas-grass-hires.png</texture>
     </texture-set>
+    <!-- <texture-set> -->
+    <!--   <texture>Terrain.CSP/grass_marsh_hires.png</texture> -->
+    <!--   <texture n="11">Terrain.CSP/airport_grass2.png</texture> -->
+    <!--   <texture n="13">Terrain.CSP/airport-grass-autumn.png</texture> -->
+    <!--   <texture n="14">Terrain.CSP/airport_grass_overlay.png</texture> -->
+    <!-- </texture-set> -->
     <parameters>
- 	<strength_05m>0.3</strength_05m>
-	<strength_1m>0.4</strength_1m>
-	<strength_2m>0.0</strength_2m>
-	<strength_5m>0.1</strength_5m>
-	<strength_10m>0.2</strength_10m>
-	<filter_threshold>0.15</filter_threshold>
-	<filter_transition>0.1</filter_transition>
-	<bias_center>1</bias_center>
-	<bias_center_strength>0.6</bias_center_strength>
-        <relief_strength>0.35</relief_strength>
-	<size_base>25.0</size_base>
-	<size_overlay>30.0</size_overlay>
-	<size_grain>50.0</size_grain>
-    	<grain_strength>0.8</grain_strength>
+      <hires_overlay_bias>0.1</hires_overlay_bias>
+      <strength_05m>0.1</strength_05m>
+      <strength_1m>0.2</strength_1m>
+      <strength_2m>0.0</strength_2m>
+      <strength_5m>0.1</strength_5m>
+      <strength_10m>0.2</strength_10m>
+      <filter_threshold>0.15</filter_threshold>
+      <filter_transition>0.1</filter_transition>
+      <bias_center>1</bias_center>
+      <bias_center_strength>0.6</bias_center_strength>
+      <relief_strength>0.35</relief_strength>
+      <size_base>25.0</size_base>
+      <size_overlay>30.0</size_overlay>
+      <size_grain>50.0</size_grain>
+      <grain_strength>0.8</grain_strength>
     </parameters>
-    <texture-set>
-    <texture>Runway/grass_rwy.png</texture>
-      <texture n="16">Terrain.CSP/airport_grass2.png</texture>
-      <texture n="17">Terrain.CSP/sand_hires_ochre.png</texture>
-    </texture-set>
-    <xsize>75</xsize>
-    <ysize>75</ysize>
+    <!-- <texture-set> -->
+    <!--   <texture>Runway/dirt_rwy.png</texture> -->
+    <!--   <texture n="16">Terrain.CSP/sand_hires_ochre.png</texture> -->
+    <!--   <texture n="17">Terrain.CSP/airport_grass2.png</texture> -->
+    <!-- </texture-set> -->
+    <!-- <parameters> -->
+    <!--   <strength_05m>0.3</strength_05m> -->
+    <!--   <strength_1m>0.4</strength_1m> -->
+    <!--   <strength_2m>0.0</strength_2m> -->
+    <!--   <strength_5m>0.1</strength_5m> -->
+    <!--   <strength_10m>0.2</strength_10m> -->
+    <!--   <filter_threshold>0.15</filter_threshold> -->
+    <!--   <filter_transition>0.1</filter_transition> -->
+    <!--   <bias_center>1</bias_center> -->
+    <!--   <bias_center_strength>0.6</bias_center_strength> -->
+    <!--   <relief_strength>0.35</relief_strength> -->
+    <!--   <size_base>25.0</size_base> -->
+    <!--   <size_overlay>30.0</size_overlay> -->
+    <!--   <size_grain>50.0</size_grain> -->
+    <!--   <grain_strength>0.8</grain_strength> -->
+    <!-- </parameters> -->
+    <!-- <texture-set> -->
+    <!--   <texture>Runway/grass_rwy.png</texture> -->
+    <!--   <texture n="16">Terrain.CSP/airport_grass2.png</texture> -->
+    <!--   <texture n="17">Terrain.CSP/sand_hires_ochre.png</texture> -->
+    <!-- </texture-set> -->
+    <xsize>16</xsize>
+    <ysize>16</ysize>
     <solid>1</solid>
     <friction-factor>0.8</friction-factor>
     <rolling-friction>0.05</rolling-friction>

@@ -28,7 +28,7 @@
     <ysize>2000</ysize>
     <light-coverage>900000000.0</light-coverage>
     <wood-coverage>5000.0</wood-coverage>
-    <tree-texture>Trees/caatinga-trees.png</tree-texture>
+    <tree-texture>Trees.CSP/caatinga-trees.png</tree-texture>
     <tree-varieties>4</tree-varieties>
     <tree-height-m>8.0</tree-height-m>
     <tree-width-m>8.0</tree-width-m>
@@ -55,7 +55,7 @@
     <light-coverage>900000000.0</light-coverage>
     <!-- <wood-coverage>6500.0</wood-coverage> --> <!-- use this value if mask works -->
     <wood-coverage>10000.0</wood-coverage>
-    <tree-texture>Trees/caatinga-trees.png</tree-texture>
+    <tree-texture>Trees.CSP/caatinga-trees.png</tree-texture>
     <tree-varieties>4</tree-varieties>
     <tree-height-m>8.0</tree-height-m>
     <tree-width-m>8.0</tree-width-m>

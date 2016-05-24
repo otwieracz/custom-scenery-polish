@@ -37,7 +37,7 @@
     <building-large-ratio>0.0</building-large-ratio>
     <building-medium-max-floors>4</building-medium-max-floors>
     <wood-coverage>8000.0</wood-coverage>
-    <tree-texture>Trees/deciduous-alt.png</tree-texture>
+    <tree-texture>Trees.CSP/deciduous-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-height-m>15.0</tree-height-m>
     <tree-width-m>10.0</tree-width-m>
@@ -61,7 +61,7 @@
     <ysize>2000</ysize>
     <light-coverage>10000000.0</light-coverage>
     <wood-coverage>4000.0</wood-coverage>
-    <tree-texture>Trees/coniferous-alt.png</tree-texture>
+    <tree-texture>Trees.CSP/coniferous-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-height-m>25.0</tree-height-m>
     <tree-width-m>18.0</tree-width-m>
@@ -128,7 +128,7 @@
     <shininess>1.2</shininess>
     <light-coverage>20000000.0</light-coverage>
     <wood-coverage>48000.0</wood-coverage>
-    <tree-texture>Trees/coniferous-alt.png</tree-texture>
+    <tree-texture>Trees.CSP/coniferous-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-height-m>25.0</tree-height-m>
     <tree-width-m>18.0</tree-width-m>
@@ -161,7 +161,7 @@
     <solid>1</solid>
     <light-coverage>40000000.0</light-coverage>
     <wood-coverage>30000.0</wood-coverage>
-    <tree-texture>Trees/coniferous-alt.png</tree-texture>
+    <tree-texture>Trees.CSP/coniferous-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-height-m>25.0</tree-height-m>
     <tree-width-m>18.0</tree-width-m>
@@ -194,7 +194,7 @@
     <light-coverage>2000000.0</light-coverage>
     <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <wood-coverage>10000.0</wood-coverage>
-    <tree-texture>Trees/mixed-alt.png</tree-texture>
+    <tree-texture>Trees.CSP/mixed-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-height-m>20.0</tree-height-m>
     <tree-width-m>12.0</tree-width-m>
