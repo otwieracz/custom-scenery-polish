@@ -11,11 +11,11 @@
   <material>
     <name>Scrub</name>
     <texture-set>
-     <texture>Terrain/lava1.png</texture>
-     <texture n="12">Terrain/deciduous-hires.png</texture>
-     <texture n="11">Terrain/lava_drylake.png</texture>
-     <texture n="13">Terrain/rocks-lava.png</texture>
-     <texture n="15">Terrain/tundra-hawaii.png</texture>
+     <texture>Terrain.CSP/lava1.png</texture>
+     <texture n="12">Terrain.CSP/deciduous-hires.png</texture>
+     <texture n="11">Terrain.CSP/lava_drylake.png</texture>
+     <texture n="13">Terrain.CSP/rocks-lava.png</texture>
+     <texture n="15">Terrain.CSP/tundra-hawaii.png</texture>
     </texture-set>
     <parameters>
      <dot_density>0.3</dot_density>
@@ -75,9 +75,9 @@
     <name>Greenspace</name>
     <effect>Effects/airfield</effect>
     <texture-set>
-      <texture>Terrain/lava3.png</texture>
-      <texture n="13">Terrain/lava3.png</texture>
-      <texture n="14">Terrain/airport_grass_overlay.png</texture>
+      <texture>Terrain.CSP/lava3.png</texture>
+      <texture n="13">Terrain.CSP/lava3.png</texture>
+      <texture n="14">Terrain.CSP/airport_grass_overlay.png</texture>
     </texture-set>
     <parameters>
       <grit_alpha>0.4</grit_alpha>

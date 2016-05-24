@@ -91,7 +91,7 @@
   <material>
 		<name>Freeway</name>
 		<name>Road</name>
-		<texture>Terrain/asphalt.png</texture>
+		<texture>Terrain.CSP/asphalt.png</texture>
 		<xsize>400</xsize>
 		<ysize>400</ysize>
 		<light-coverage>1000.0</light-coverage>

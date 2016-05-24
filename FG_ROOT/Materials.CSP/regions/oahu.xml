@@ -24,11 +24,11 @@
     <name>Scrub</name>
     <name>Sclerophyllous</name>
     <texture-set>
-      <texture>Terrain/shrub-hawaii-green.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
-      <texture n="12">Terrain/shrub-hawaii-green.png</texture>
-      <texture n="13">Terrain/shrub-hawaii.png</texture>
-      <texture n="15">Terrain/rainforest-hawaii.png</texture>
+      <texture>Terrain.CSP/shrub-hawaii-green.png</texture>
+      <texture n="11">Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="12">Terrain.CSP/shrub-hawaii-green.png</texture>
+      <texture n="13">Terrain.CSP/shrub-hawaii.png</texture>
+      <texture n="15">Terrain.CSP/rainforest-hawaii.png</texture>
     </texture-set>
     <parameters>
       <transition_model>1.0</transition_model>
@@ -65,11 +65,11 @@
     <name>Cemetery</name>
     <effect>Effects/landmass-nowood</effect>
     <texture-set>
-      <texture>Terrain/tundra-hawaii-green.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
-      <texture n="12">Terrain/shrub-hawaii-green.png</texture>
-      <texture n="13">Terrain/shrub-hawaii.png</texture>
-      <texture n="15">Terrain/rainforest-hawaii.png</texture>
+      <texture>Terrain.CSP/tundra-hawaii-green.png</texture>
+      <texture n="11">Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="12">Terrain.CSP/shrub-hawaii-green.png</texture>
+      <texture n="13">Terrain.CSP/shrub-hawaii.png</texture>
+      <texture n="15">Terrain.CSP/rainforest-hawaii.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>

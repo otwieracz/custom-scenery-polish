@@ -26,9 +26,9 @@
     <name>Cemetery</name>
     <effect>Effects/landmass-nowood</effect>
     <texture-set>
-      <texture>Terrain/tundra2-autumn.png</texture>
-    <texture n="11">Terrain/grass_green_hires-autumn.png</texture>
-    <texture n="12">Terrain/rock_dark.png</texture>
+      <texture>Terrain.CSP/tundra2-autumn.png</texture>
+    <texture n="11">Terrain.CSP/grass_green_hires-autumn.png</texture>
+    <texture n="12">Terrain.CSP/rock_dark.png</texture>
     </texture-set>
     <parameters>
      <grain_strength>0.8</grain_strength>
@@ -70,10 +70,10 @@
     <name>Bog</name>
     <name>Heath</name>
     <texture-set>
-     <texture>Terrain/marsh4a-autumn.png</texture>
-     <texture n="12">Terrain/rock_dark.png</texture>
-     <texture n="11">Terrain/grass_green_hires-autumn.png</texture>
-     <texture n="15">Terrain/grass_hires.png</texture>
+     <texture>Terrain.CSP/marsh4a-autumn.png</texture>
+     <texture n="12">Terrain.CSP/rock_dark.png</texture>
+     <texture n="11">Terrain.CSP/grass_green_hires-autumn.png</texture>
+     <texture n="15">Terrain.CSP/grass_hires.png</texture>
     </texture-set>
     <parameters>
      <intrinsic_wetness>0.1</intrinsic_wetness>
@@ -95,9 +95,9 @@
     <name>DryCropPastureCover</name>
     <name>DryCrop</name>
     <texture-set>
-     <texture>Terrain/iceland_grass-autumn.png</texture>
-     <texture n="11">Terrain/grass_green_hires-autumn.png</texture>
-     <texture n="12">Terrain/rock_dark.png</texture>
+     <texture>Terrain.CSP/iceland_grass-autumn.png</texture>
+     <texture n="11">Terrain.CSP/grass_green_hires-autumn.png</texture>
+     <texture n="12">Terrain.CSP/rock_dark.png</texture>
     </texture-set>
     <parameters>
       <transition_model>0.8</transition_model>
@@ -123,10 +123,10 @@
     <name>Vineyard</name>
     <name>Rice</name>
     <texture-set>
-     <texture>Terrain/cropgrass-hires-autumn.png</texture>
-     <texture n="11">Terrain/grass_green_hires-autumn.png</texture>
+     <texture>Terrain.CSP/cropgrass-hires-autumn.png</texture>
+     <texture n="11">Terrain.CSP/grass_green_hires-autumn.png</texture>
     </texture-set>
-    <object-mask>Terrain/cropgrass-hires.mask.png</object-mask>
+    <object-mask>Terrain.CSP/cropgrass-hires.mask.png</object-mask>
     <parameters>
       <hires_overlay_bias>-0.1</hires_overlay_bias>
     </parameters>
@@ -138,7 +138,7 @@
     <rolling-friction>0.3</rolling-friction>
     <bumpiness>0.6</bumpiness>
     <load-resistance>1e30</load-resistance>
-    <object-group include="Materials/base/farm-buildings.xml"/>
+    <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <wood-coverage>5000.0</wood-coverage>
     <tree-texture>Trees/mixed-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
@@ -161,10 +161,10 @@
     <name>Scrub</name>
     <name>Sclerophyllous</name>
     <texture-set>
-     <texture>Terrain/shrub1-autumn.png</texture>
-     <texture n="11">Terrain/grass_green_hires-autumn.png</texture>
-     <texture n="12">Terrain/rock_dark.png</texture>
-     <texture n="15">Terrain/rock_dark.png</texture>
+     <texture>Terrain.CSP/shrub1-autumn.png</texture>
+     <texture n="11">Terrain.CSP/grass_green_hires-autumn.png</texture>
+     <texture n="12">Terrain.CSP/rock_dark.png</texture>
+     <texture n="15">Terrain.CSP/rock_dark.png</texture>
     </texture-set>
     <parameters>
      <dot_density>0.1</dot_density>

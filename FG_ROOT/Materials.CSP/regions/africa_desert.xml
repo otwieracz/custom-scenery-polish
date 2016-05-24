@@ -62,9 +62,9 @@
     <name>Greenspace</name>
     <effect>Effects/airfield</effect>
     <texture-set>
-      <texture>Terrain/sand6_hires.png</texture>
-      <texture n="13">Terrain/sand6_hires.png</texture>
-      <texture n="14">Terrain/sand_overlay.png</texture>
+      <texture>Terrain.CSP/sand6_hires.png</texture>
+      <texture n="13">Terrain.CSP/sand6_hires.png</texture>
+      <texture n="14">Terrain.CSP/sand_overlay.png</texture>
     </texture-set>
     <parameters>
       <grit_alpha>0.4</grit_alpha>
@@ -102,22 +102,22 @@
     <name>IntermittentReservoir</name>
     <name>IntermittentLake</name>
     <texture-set>
-      <texture>Terrain/sand4.png</texture>
-      <texture n="11">Terrain/sand_hires.png</texture>
-      <texture n="12">Terrain/sand1.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
+      <texture>Terrain.CSP/sand4.png</texture>
+      <texture n="11">Terrain.CSP/sand_hires.png</texture>
+      <texture n="12">Terrain.CSP/sand1.png</texture>
+      <texture n="15">Terrain.CSP/sand_hires_ochre.png</texture>
     </texture-set>
     <texture-set>
-      <texture>Terrain/sand5.png</texture>
-      <texture n="11">Terrain/sand_hires.png</texture>
-      <texture n="12">Terrain/sand1.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
+      <texture>Terrain.CSP/sand5.png</texture>
+      <texture n="11">Terrain.CSP/sand_hires.png</texture>
+      <texture n="12">Terrain.CSP/sand1.png</texture>
+      <texture n="15">Terrain.CSP/sand_hires_ochre.png</texture>
     </texture-set>
     <texture-set>
-      <texture>Terrain/sand6.png</texture>
-      <texture n="11">Terrain/sand_hires.png</texture>
-      <texture n="12">Terrain/sand1.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
+      <texture>Terrain.CSP/sand6.png</texture>
+      <texture n="11">Terrain.CSP/sand_hires.png</texture>
+      <texture n="12">Terrain.CSP/sand1.png</texture>
+      <texture n="15">Terrain.CSP/sand_hires_ochre.png</texture>
     </texture-set>
     <parameters>
       <hires_overlay_bias>-0.03</hires_overlay_bias>
@@ -138,10 +138,10 @@
     <name>Island</name>
     <name>Default</name>
     <texture-set>
-      <texture>Terrain/sand6.png</texture>
-      <texture n="11">Terrain/sand5.png</texture>
-      <texture n="12">Terrain/rocks-desert.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
+      <texture>Terrain.CSP/sand6.png</texture>
+      <texture n="11">Terrain.CSP/sand5.png</texture>
+      <texture n="12">Terrain.CSP/rocks-desert.png</texture>
+      <texture n="15">Terrain.CSP/sand_hires_ochre.png</texture>
     </texture-set>
     <parameters>
       <hires_overlay_bias>-0.1</hires_overlay_bias>
@@ -160,10 +160,10 @@
     <name>Lava</name>
     <name>Burnt</name>
     <texture-set>
-      <texture>Terrain/sand6.png</texture>
-      <texture n="11">Terrain/lava2.png</texture>
-      <texture n="12">Terrain/rocks-desert.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
+      <texture>Terrain.CSP/sand6.png</texture>
+      <texture n="11">Terrain.CSP/lava2.png</texture>
+      <texture n="12">Terrain.CSP/rocks-desert.png</texture>
+      <texture n="15">Terrain.CSP/sand_hires_ochre.png</texture>
     </texture-set>
     <parameters>
       <hires_overlay_bias>0.1</hires_overlay_bias>
@@ -184,10 +184,10 @@
     <name>Rock</name>
     <name>Dump</name>
     <texture-set>
-      <texture>Terrain/sand5.png</texture>
-      <texture n="11">Terrain/rocks-desert.png</texture>
-      <texture n="12">Terrain/rocks-desert.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
+      <texture>Terrain.CSP/sand5.png</texture>
+      <texture n="11">Terrain.CSP/rocks-desert.png</texture>
+      <texture n="12">Terrain.CSP/rocks-desert.png</texture>
+      <texture n="15">Terrain.CSP/sand_hires_ochre.png</texture>
     </texture-set>
     <parameters>
       <hires_overlay_bias>0</hires_overlay_bias>
@@ -212,22 +212,22 @@
     <name>Scrub</name>
     <name>Sclerophyllous</name>
     <texture-set>
-      <texture>Terrain/sand4.png</texture>
-      <texture n="11">Terrain/sand_hires.png</texture>
-      <texture n="12">Terrain/shrub3.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
+      <texture>Terrain.CSP/sand4.png</texture>
+      <texture n="11">Terrain.CSP/sand_hires.png</texture>
+      <texture n="12">Terrain.CSP/shrub3.png</texture>
+      <texture n="15">Terrain.CSP/sand_hires_ochre.png</texture>
     </texture-set>
     <texture-set>
-      <texture>Terrain/sand5.png</texture>
-      <texture n="11">Terrain/sand_hires.png</texture>
-      <texture n="12">Terrain/shrub2.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
+      <texture>Terrain.CSP/sand5.png</texture>
+      <texture n="11">Terrain.CSP/sand_hires.png</texture>
+      <texture n="12">Terrain.CSP/shrub2.png</texture>
+      <texture n="15">Terrain.CSP/sand_hires_ochre.png</texture>
     </texture-set>
     <texture-set>
-      <texture>Terrain/sand6.png</texture>
-      <texture n="11">Terrain/sand_hires.png</texture>
-      <texture n="12">Terrain/shrub1.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
+      <texture>Terrain.CSP/sand6.png</texture>
+      <texture n="11">Terrain.CSP/sand_hires.png</texture>
+      <texture n="12">Terrain.CSP/shrub1.png</texture>
+      <texture n="15">Terrain.CSP/sand_hires_ochre.png</texture>
     </texture-set>
     <parameters>
       <hires_overlay_bias>-0.03</hires_overlay_bias>
@@ -262,9 +262,9 @@
     <name>DryCropPastureCover</name>
     <name>DryCrop</name>
     <texture-set>
-      <texture>Terrain/dry_pasture4.png</texture>
-      <texture n="11">Terrain/sand_hires_ochre.png</texture>
-      <texture n="12">Terrain/dry_pasture4.png</texture>
+      <texture>Terrain.CSP/dry_pasture4.png</texture>
+      <texture n="11">Terrain.CSP/sand_hires_ochre.png</texture>
+      <texture n="12">Terrain.CSP/dry_pasture4.png</texture>
     </texture-set>
     <parameters>
       <hires_overlay_bias>-0.1</hires_overlay_bias>
@@ -291,10 +291,10 @@
     <name>Crop</name>
     <name>ComplexCrop</name>
     <texture-set>
-      <texture>Terrain/mixedcrop2.png</texture>
-      <texture n="15">Terrain/sand_hires_ochre.png</texture>
+      <texture>Terrain.CSP/mixedcrop2.png</texture>
+      <texture n="15">Terrain.CSP/sand_hires_ochre.png</texture>
     </texture-set>
-    <object-mask>Terrain/mixedcrop2-mask.png</object-mask>
+    <object-mask>Terrain.CSP/mixedcrop2-mask.png</object-mask>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>2000000.0</light-coverage>
@@ -303,7 +303,7 @@
     <rolling-friction>0.1</rolling-friction>
     <bumpiness>0.7</bumpiness>
     <load-resistance>1e30</load-resistance>
-    <object-group include="Materials/base/farm-buildings.xml"/>
+    <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <wood-coverage>3500.0</wood-coverage>
     <tree-texture>Trees/mixed-shrub.png</tree-texture>
     <tree-varieties>8</tree-varieties>
@@ -318,9 +318,9 @@
     <name>Cemetery</name>
     <effect>Effects/landmass-nowood</effect>
     <texture-set>
-      <texture>Terrain/tundra2.png</texture>
-      <texture n="11">Terrain/grass_hires.png</texture>
-      <texture n="12">Terrain/dirtrock_dark.png</texture>
+      <texture>Terrain.CSP/tundra2.png</texture>
+      <texture n="11">Terrain.CSP/grass_hires.png</texture>
+      <texture n="12">Terrain.CSP/dirtrock_dark.png</texture>
     </texture-set>
     <parameters>
       <transition_model>0.8</transition_model>

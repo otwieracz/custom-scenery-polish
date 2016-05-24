@@ -21,9 +21,9 @@
     <name>EvergreenForest</name>
     <effect>Effects/forest</effect>
     <texture-set>
-     <texture>Terrain/rainforest-hawaii.png</texture>
-     <texture n="11">Terrain/rainforest-hawaii.png</texture>
-     <texture n="12">Terrain/shrub-hawaii.png</texture>
+     <texture>Terrain.CSP/rainforest-hawaii.png</texture>
+     <texture n="11">Terrain.CSP/rainforest-hawaii.png</texture>
+     <texture n="12">Terrain.CSP/shrub-hawaii.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -44,10 +44,10 @@
     <name>Cemetery</name>
     <effect>Effects/landmass-nowood</effect>
     <texture-set>
-     <texture>Terrain/tundra-hawaii.png</texture>
-     <texture n="11">Terrain/rainforest-hawaii.png</texture>
-     <texture n="12">Terrain/shrub-hawaii.png</texture>
-     <texture n="15">Terrain/airport_grass2.png</texture>
+     <texture>Terrain.CSP/tundra-hawaii.png</texture>
+     <texture n="11">Terrain.CSP/rainforest-hawaii.png</texture>
+     <texture n="12">Terrain.CSP/shrub-hawaii.png</texture>
+     <texture n="15">Terrain.CSP/airport_grass2.png</texture>
     </texture-set>
     <parameters>
       <hires_overlay_bias>0.0</hires_overlay_bias>
@@ -80,8 +80,8 @@
     <name>MixedCrop</name>
     <name>ComplexCrop</name>
    <texture-set>
-      <texture>Terrain/cropgrass-madagascar.png</texture>
-      <texture n="12">Terrain/shrub-hawaii.png</texture>
+      <texture>Terrain.CSP/cropgrass-madagascar.png</texture>
+      <texture n="12">Terrain.CSP/shrub-hawaii.png</texture>
     </texture-set>
     <parameters>
      <transition_model>0.5</transition_model>
@@ -101,9 +101,9 @@
     <name>DryCropPastureCover</name>
     <name>DryCrop</name>
     <texture-set>
-     <texture>Terrain/tundra-hawaii.png</texture>
-     <texture n="11">Terrain/rainforest-hawaii.png</texture>
-     <texture n="12">Terrain/shrub-hawaii.png</texture>
+     <texture>Terrain.CSP/tundra-hawaii.png</texture>
+     <texture n="11">Terrain.CSP/rainforest-hawaii.png</texture>
+     <texture n="12">Terrain.CSP/shrub-hawaii.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -124,8 +124,8 @@
   <material>
     <name>BuiltUpCover</name>
     <name>Urban</name>
-    <texture>Terrain/town-madagascar.png</texture>
-    <object-mask>Terrain/town-europe.mask.png</object-mask>
+    <texture>Terrain.CSP/town-madagascar.png</texture>
+    <object-mask>Terrain.CSP/town-europe.mask.png</object-mask>
     <xsize>1024</xsize>
     <ysize>1024</ysize>
     <light-coverage>100000.0</light-coverage>
@@ -135,7 +135,7 @@
      <b>0.02</b>
      <a>1.0</a>
     </emissive>
-    <object-group include="Materials/base/town-buildings.xml"/>
+    <object-group include="Materials.CSP/base/town-buildings.xml"/>
     <building-coverage>500.0</building-coverage>
     <building-small-ratio>0.9</building-small-ratio>
     <building-medium-ratio>0.1</building-medium-ratio>
@@ -154,8 +154,8 @@
     <name>Bog</name>
     <name>Heath</name>
     <texture-set>
-     <texture>Terrain/rainforest-hawaii.png</texture>
-     <texture n="12">Terrain/marsh2a.png</texture>
+     <texture>Terrain.CSP/rainforest-hawaii.png</texture>
+     <texture n="12">Terrain.CSP/marsh2a.png</texture>
     </texture-set>
     <parameters>
      <intrinsic_wetness>0.4</intrinsic_wetness>
@@ -175,8 +175,8 @@
   <material>
     <name>Sand</name>
     <texture-set>
-     <texture>Terrain/sand-hawaii4.png</texture>
-     <texture n="11">Terrain/sand-hawaii4.png</texture>
+     <texture>Terrain.CSP/sand-hawaii4.png</texture>
+     <texture n="11">Terrain.CSP/sand-hawaii4.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>

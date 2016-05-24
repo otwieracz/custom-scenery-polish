@@ -70,9 +70,9 @@
     <name>Greenspace</name>
     <effect>Effects/airfield</effect>
     <texture-set>
-      <texture>Terrain/grass_dry2.png</texture>
-      <texture n="13">Terrain/grass_dry2.png</texture>
-      <texture n="14">Terrain/airport_grass_overlay.png</texture>
+      <texture>Terrain.CSP/grass_dry2.png</texture>
+      <texture n="13">Terrain.CSP/grass_dry2.png</texture>
+      <texture n="14">Terrain.CSP/airport_grass_overlay.png</texture>
     </texture-set>
     <parameters>
       <grit_alpha>0.4</grit_alpha>
@@ -110,8 +110,8 @@
     <effect>Effects/dirt-runway</effect>
   	<texture-set>
       <texture>Runway/dirt_rwy.png</texture>
-      <texture n="16">Terrain/gravel_brown.png</texture>
-      <texture n="17">Terrain/grass_dry2a_darker.png</texture>
+      <texture n="16">Terrain.CSP/gravel_brown.png</texture>
+      <texture n="17">Terrain.CSP/grass_dry2a_darker.png</texture>
     </texture-set>
     <parameters>
      	<strength_05m>0.0</strength_05m>
@@ -145,9 +145,9 @@
     <name>DeciduousNeedleCover</name>
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/rainforest-hawaii.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
+      <texture>Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="11">Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="13">Terrain.CSP/rock_red.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -173,11 +173,11 @@
     <name>Scrub</name>
     <effect>Effects/forest</effect>
 		<texture-set>
-      <texture>Terrain/rainforest-hawaii.png</texture>
-			<texture n="11">Terrain/rainforest-patch.png</texture>
-			<texture n="12">Terrain/grass_dry2a.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
-			<texture n="15">Terrain/airport_grass2.png</texture>
+      <texture>Terrain.CSP/rainforest-hawaii.png</texture>
+			<texture n="11">Terrain.CSP/rainforest-patch.png</texture>
+			<texture n="12">Terrain.CSP/grass_dry2a.png</texture>
+      <texture n="13">Terrain.CSP/rock_red.png</texture>
+			<texture n="15">Terrain.CSP/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
 			<grain_strength>0.5</grain_strength>			
@@ -199,11 +199,11 @@
     <effect>Effects/cropgrass</effect>
     <name>Grassland</name>
 		<texture-set>
-			<texture>Terrain/grass_dry2a.png</texture>
-			<texture n="11">Terrain/rainforest-patch.png</texture>
-			<texture n="12">Terrain/rainforest-hawaii.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
-			<texture n="15">Terrain/airport_grass2.png</texture>
+			<texture>Terrain.CSP/grass_dry2a.png</texture>
+			<texture n="11">Terrain.CSP/rainforest-patch.png</texture>
+			<texture n="12">Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="13">Terrain.CSP/rock_red.png</texture>
+			<texture n="15">Terrain.CSP/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
 			<grain_strength>0.5</grain_strength>			
@@ -242,11 +242,11 @@
     <name>HerbTundra</name>
     <name>HerbTundraCover</name>
 		<texture-set>
-			<texture>Terrain/tundra-hawaii.png</texture>
-			<texture n="11">Terrain/rainforest-patch.png</texture>
-			<texture n="12">Terrain/rainforest-hawaii.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
-			<texture n="15">Terrain/airport_grass2.png</texture>
+			<texture>Terrain.CSP/tundra-hawaii.png</texture>
+			<texture n="11">Terrain.CSP/rainforest-patch.png</texture>
+			<texture n="12">Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="13">Terrain.CSP/rock_red.png</texture>
+			<texture n="15">Terrain.CSP/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
 			<grain_strength>0.5</grain_strength>			

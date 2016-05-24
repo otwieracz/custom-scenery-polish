@@ -30,7 +30,7 @@
    </equals>
   </condition>
 
-  <material include="Materials/base/runway_effect.xml">
+  <material include="Materials.CSP/base/runway_effect.xml">
   <name>pa_shoulder</name>
     <texture>Runway/pa_shoulder2.png</texture>
     <parameters>
@@ -38,7 +38,7 @@
     </parameters>
   </material>
 
-  <material include="Materials/base/runway_effect.xml">
+  <material include="Materials.CSP/base/runway_effect.xml">
   <name>pa_shoulder_f</name>
     <texture>Runway/pa_shoulder_f2.png</texture>
     <parameters>
@@ -56,8 +56,8 @@
     <name>HerbWetlandCover</name>
     <name>WoodedWetlandCover</name>
     <texture-set>
-  		<texture>Terrain/california-grass.png</texture>    
-      <texture n="13">Terrain/california-rock.png</texture>  		  
+  		<texture>Terrain.CSP/california-grass.png</texture>    
+      <texture n="13">Terrain.CSP/california-rock.png</texture>  		  
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -88,9 +88,9 @@
     <name>AirportKeep</name>
     <effect>Effects/airfield</effect>
     <texture-set>
-      <texture>Terrain/california-airport.png</texture>
-      <texture n="13">Terrain/california-airport.png</texture>
-      <texture n="14">Terrain/grass_dry2.png</texture>
+      <texture>Terrain.CSP/california-airport.png</texture>
+      <texture n="13">Terrain.CSP/california-airport.png</texture>
+      <texture n="14">Terrain.CSP/grass_dry2.png</texture>
     </texture-set>
     <parameters>
       <grit_alpha>0.2</grit_alpha>
@@ -127,9 +127,9 @@
     <name>Rock</name>
     <name>Dump</name>
     <texture-set>
-      <texture>Terrain/california-rock.png</texture>
-      <texture n="11">Terrain/gravel_gray.png</texture>
-      <texture n="14">Terrain/grain_texture.png</texture>
+      <texture>Terrain.CSP/california-rock.png</texture>
+      <texture n="11">Terrain.CSP/gravel_gray.png</texture>
+      <texture n="14">Terrain.CSP/grain_texture.png</texture>
     </texture-set>    
     <parameters>
 			<hires_overlay_bias>-0.1</hires_overlay_bias>
@@ -159,16 +159,16 @@
     <name>MixedTundraCover</name>
     <name>Cemetery</name>
     <texture-set>
-      <texture>Terrain/california-shrub2.png</texture>
-      <texture n="11">Terrain/california-grass-hires.png</texture>
-      <texture n="12">Terrain/california-shrub3.png</texture>
-      <texture n="13">Terrain/california-rock.png</texture>
-      <texture n="15">Terrain/grass_hires.png</texture> 
+      <texture>Terrain.CSP/california-shrub2.png</texture>
+      <texture n="11">Terrain.CSP/california-grass-hires.png</texture>
+      <texture n="12">Terrain.CSP/california-shrub3.png</texture>
+      <texture n="13">Terrain.CSP/california-rock.png</texture>
+      <texture n="15">Terrain.CSP/grass_hires.png</texture> 
     </texture-set>
     <!--<texture-set>
-      <texture>Terrain/california-shrub2.png</texture>
-      <texture n="13">Terrain/california-rock.png</texture>
-      <texture n="15">Terrain/gravel_red.png</texture> 
+      <texture>Terrain.CSP/california-shrub2.png</texture>
+      <texture n="13">Terrain.CSP/california-rock.png</texture>
+      <texture n="15">Terrain.CSP/gravel_red.png</texture> 
     </texture-set>-->
     <parameters>
 	<grain_strength>0.2</grain_strength>
@@ -205,9 +205,9 @@
     <name>DryCrop</name>
     <effect>Effects/forest</effect>
     <texture-set>
-	    <texture>Terrain/california-drycrop.png</texture>
+	    <texture>Terrain.CSP/california-drycrop.png</texture>
     </texture-set> 
-    <object-mask>Terrain/california-drycrop-mask.png</object-mask>
+    <object-mask>Terrain.CSP/california-drycrop-mask.png</object-mask>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>900000000.0</light-coverage>
@@ -229,7 +229,7 @@
     <name>Rice</name>
     <effect>Effects/agriculture</effect>
     <texture-set>
-	    <texture>Terrain/california-drycrop2.png</texture>
+	    <texture>Terrain.CSP/california-drycrop2.png</texture>
     </texture-set> 
     <parameters>
  	<rotation_flag>1</rotation_flag>
@@ -237,7 +237,7 @@
   	<uv_xoffset>0.0</uv_xoffset>
   	<uv_yoffset>0.0</uv_yoffset>
     </parameters>
-    <object-mask>Terrain/california-drycrop2-mask.png</object-mask>
+    <object-mask>Terrain.CSP/california-drycrop2-mask.png</object-mask>
     <xsize>1000</xsize>
     <ysize>1000</ysize>
     <light-coverage>900000000.0</light-coverage>
@@ -256,9 +256,9 @@
     <name>MixedCropPastureCover</name>
     <effect>Effects/forest</effect>	
     <texture-set>
-	    <texture>Terrain/california-mixedcrop.png</texture>
+	    <texture>Terrain.CSP/california-mixedcrop.png</texture>
     </texture-set> 
-    <object-mask>Terrain/california-mixedcrop-mask.png</object-mask>
+    <object-mask>Terrain.CSP/california-mixedcrop-mask.png</object-mask>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>900000000.0</light-coverage>
@@ -283,9 +283,9 @@
     <name>DeciduousNeedleCover</name>    
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/california-forest.png</texture>
-	    <texture n="13">Terrain/california-rock.png</texture>
-      <texture n="12">Terrain/california-shrub2.png</texture>
+      <texture>Terrain.CSP/california-forest.png</texture>
+	    <texture n="13">Terrain.CSP/california-rock.png</texture>
+      <texture n="12">Terrain.CSP/california-shrub2.png</texture>
     </texture-set>
     <parameters>
 			<grain_strength>0.2</grain_strength>	
@@ -307,8 +307,8 @@
 		<name>Industrial</name>
 		<effect>Effects/urban</effect>
 		<texture-set>
-      <texture>Terrain/california-industry.png</texture>
-      <texture n="2">Terrain/california-industry-relief-light.png</texture>
+      <texture>Terrain.CSP/california-industry.png</texture>
+      <texture n="2">Terrain.CSP/california-industry-relief-light.png</texture>
     </texture-set>
 		<xsize>1000</xsize>
 		<ysize>1000</ysize>
@@ -319,7 +319,7 @@
 		 <b>0.02</b>
 		 <a>1.0</a>
 		</emissive>
-		<object-group include="Materials/base/industrial-buildings.xml"/>
+		<object-group include="Materials.CSP/base/industrial-buildings.xml"/>
 	</material>
 	
 	<material>		
@@ -327,7 +327,7 @@
 		<name>Port</name>		
 		<effect>Effects/urban</effect>
 		<texture-set>
-		  <texture>Terrain/california-port.png</texture>
+		  <texture>Terrain.CSP/california-port.png</texture>
 		</texture-set>    
 		<xsize>500</xsize>
 		<ysize>500</ysize>
@@ -338,13 +338,13 @@
 		 <b>0.02</b>
 		 <a>1.0</a>
 		</emissive>
-		<object-group include="Materials/base/industrial-buildings.xml"/>
+		<object-group include="Materials.CSP/base/industrial-buildings.xml"/>
 	</material>
 	
   <material>
     <name>GolfCourse</name>
-    <texture>Terrain/california-golf.png</texture>
-    <object-mask>Terrain/california-golf-mask.png</object-mask>
+    <texture>Terrain.CSP/california-golf.png</texture>
+    <object-mask>Terrain.CSP/california-golf-mask.png</object-mask>
     <xsize>800</xsize>
     <ysize>800</ysize>
     <light-coverage>2000000.0</light-coverage>
@@ -376,7 +376,7 @@
   <material>
     <name>Sand</name>
     <texture-set>
-      <texture>Terrain/california-sand.png</texture>
+      <texture>Terrain.CSP/california-sand.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -391,9 +391,9 @@
     <name>Lava</name>
     <name>Burnt</name>
     <texture-set>
-      <texture>Terrain/california-rock.png</texture>
-      <texture n="11">Terrain/lava2.png</texture>
-      <texture n="14">Terrain/grain_texture.png</texture>
+      <texture>Terrain.CSP/california-rock.png</texture>
+      <texture n="11">Terrain.CSP/lava2.png</texture>
+      <texture n="14">Terrain.CSP/grain_texture.png</texture>
     </texture-set>    
     <parameters>
 			<hires_overlay_bias>-0.1</hires_overlay_bias>

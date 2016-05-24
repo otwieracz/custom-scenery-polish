@@ -18,9 +18,9 @@
     <name>DeciduousNeedleCover</name>
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/rainforest-hawaii.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
-	    <texture n="12">Terrain/cerrado-generic.png</texture>
+      <texture>Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="11">Terrain.CSP/rainforest-hawaii.png</texture>
+	    <texture n="12">Terrain.CSP/cerrado-generic.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -40,8 +40,8 @@
 		<name>Grassland</name>
     <name>GrassCover</name>
     <effect>Effects/forest</effect>
-    <texture>Terrain/cerrado-generic.png</texture>
-		<object-mask>Terrain/cerrado-generic-mask.png</object-mask>    
+    <texture>Terrain.CSP/cerrado-generic.png</texture>
+		<object-mask>Terrain.CSP/cerrado-generic-mask.png</object-mask>    
     <xsize>4000</xsize>
     <ysize>4000</ysize>
     <light-coverage>900000000.0</light-coverage>
@@ -65,8 +65,8 @@
     <name>HerbWetlandCover</name>
     <name>WoodedWetlandCover</name>
     <effect>Effects/forest</effect>
-    <texture>Terrain/cerrado-scrub.png</texture>
-		<object-mask>Terrain/cerrado-scrub-mask.png</object-mask>    
+    <texture>Terrain.CSP/cerrado-scrub.png</texture>
+		<object-mask>Terrain.CSP/cerrado-scrub-mask.png</object-mask>    
     <xsize>4000</xsize>
     <ysize>4000</ysize>
     <light-coverage>900000000.0</light-coverage>
@@ -83,13 +83,13 @@
     <name>DryCropPastureCover</name>
     <name>DryCrop</name>
     <texture-set>
-	    <texture>Terrain/cerrado-crop2.png</texture>
-      <texture n="11">Terrain/cerrado-shrub-green.png</texture>
+	    <texture>Terrain.CSP/cerrado-crop2.png</texture>
+      <texture n="11">Terrain.CSP/cerrado-shrub-green.png</texture>
     </texture-set>
 		<parameters>
 			<hires_overlay_bias>-0.18</hires_overlay_bias>
 		</parameters>
-    <object-mask>Terrain/cerrado-crop2-mask.png</object-mask>    
+    <object-mask>Terrain.CSP/cerrado-crop2-mask.png</object-mask>    
     <xsize>4000</xsize>
     <ysize>4000</ysize>
     <light-coverage>900000000.0</light-coverage>
@@ -106,8 +106,8 @@
     <name>ComplexCrop</name>
     <name>MixedCrop</name>
     <name>MixedCropPastureCover</name>
-    <texture>Terrain/cerrado-crop.png</texture>
-    <object-mask>Terrain/cerrado-crop-mask.png</object-mask>    
+    <texture>Terrain.CSP/cerrado-crop.png</texture>
+    <object-mask>Terrain.CSP/cerrado-crop-mask.png</object-mask>    
     <xsize>4000</xsize>
     <ysize>4000</ysize>
     <light-coverage>900000000.0</light-coverage>

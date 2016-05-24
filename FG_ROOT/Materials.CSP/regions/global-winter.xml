@@ -154,15 +154,15 @@
     <name>Urban</name>
     <effect>Effects/urban</effect>
     <texture-set>
-      <texture>Terrain/city1.png</texture>
-      <texture n="2">Terrain/city1-relief-light.png</texture>
+      <texture>Terrain.CSP/city1.png</texture>
+      <texture n="2">Terrain.CSP/city1-relief-light.png</texture>
     </texture-set>
     <texture-set>
-      <texture>Terrain/city2.png</texture>
-      <texture n="2">Terrain/city2-relief-light.png</texture>
+      <texture>Terrain.CSP/city2.png</texture>
+      <texture n="2">Terrain.CSP/city2-relief-light.png</texture>
     </texture-set>
-    <object-mask>Terrain/city1.mask.png</object-mask>
-    <object-mask>Terrain/city2.mask.png</object-mask>
+    <object-mask>Terrain.CSP/city1.mask.png</object-mask>
+    <object-mask>Terrain.CSP/city2.mask.png</object-mask>
     <xsize>1000</xsize>
     <ysize>1000</ysize>
     <light-coverage>100000.0</light-coverage>
@@ -172,7 +172,7 @@
       <b>0.02</b>
       <a>1.0</a>
     </emissive>
-    <object-group include="Materials/base/urban-buildings.xml"/>
+    <object-group include="Materials.CSP/base/urban-buildings.xml"/>
     <building-coverage>2500.0</building-coverage>
     <building-small-ratio>0.4</building-small-ratio>
     <building-small-min-floors>3</building-small-min-floors>
@@ -194,9 +194,9 @@
 		<effect>Effects/urban</effect>
 		<texture-set>
 		  <texture>Terrain.winter/industrial-winter.png</texture>
-		  <texture n="2">Terrain/industrial-relief-light.png</texture>
+		  <texture n="2">Terrain.CSP/industrial-relief-light.png</texture>
 		</texture-set>
-    <object-mask>Terrain/industrial-mask.png</object-mask>
+    <object-mask>Terrain.CSP/industrial-mask.png</object-mask>
 		<xsize>1000</xsize>
 		<ysize>1000</ysize>
 		<light-coverage>100000.0</light-coverage>
@@ -206,12 +206,12 @@
 		 <b>0.02</b>
 		 <a>1.0</a>
 		</emissive>
-		<object-group include="Materials/base/industrial-buildings.xml"/>
+		<object-group include="Materials.CSP/base/industrial-buildings.xml"/>
 	</material>
 
 	<material>
 		<name>Railroad</name>		
-		<texture>Terrain/dark_gravel.png</texture>
+		<texture>Terrain.CSP/dark_gravel.png</texture>
 		<xsize>200</xsize>
 		<ysize>200</ysize>
 	</material>
@@ -233,14 +233,14 @@
 		 <b>0.02</b>
 		 <a>1.0</a>
 		</emissive>
-		<object-group include="Materials/base/industrial-buildings.xml"/>
+		<object-group include="Materials.CSP/base/industrial-buildings.xml"/>
 	</material>
 
   <material>
     <name>Town</name>
     <name>SubUrban</name>
     <texture>Terrain.winter/Town1.png</texture>
-    <object-mask>Terrain/Town1.mask.png</object-mask>
+    <object-mask>Terrain.CSP/Town1.mask.png</object-mask>
     <xsize>1024</xsize>
     <ysize>1024</ysize>
     <light-coverage>100000.0</light-coverage>
@@ -250,7 +250,7 @@
       <b>0.02</b>
       <a>1.0</a>
     </emissive>
-    <object-group include="Materials/base/town-buildings.xml"/>
+    <object-group include="Materials.CSP/base/town-buildings.xml"/>
     <building-coverage>2500.0</building-coverage>
     <building-small-ratio>0.9</building-small-ratio>
     <building-medium-ratio>0.1</building-medium-ratio>
@@ -265,7 +265,7 @@
   
 	<material>
 		<name>Gravel</name>
-		<texture>Terrain/snow2.png</texture>
+		<texture>Terrain.CSP/snow2.png</texture>
 		<xsize>400</xsize>
 		<ysize>400</ysize>
 		<light-coverage>1000000.0</light-coverage>
@@ -276,10 +276,10 @@
 		<load-resistance>1e10</load-resistance>
 	</material>
 
-  <material include="Materials/base/water.xml">
+  <material include="Materials.CSP/base/water.xml">
     <name>Ocean</name>
     <effect>Effects/water</effect>
-    <texture>Terrain/water.png</texture>
+    <texture>Terrain.CSP/water.png</texture>
   </material>
 
   <material>
@@ -364,7 +364,7 @@
 
   <material>
     <name>Littoral</name>
-    <texture>Terrain/tidal.png</texture>
+    <texture>Terrain.CSP/tidal.png</texture>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <solid>1</solid>
@@ -450,8 +450,8 @@
   <material>
     <name>Greenspace</name>
     <texture-set>
-     <texture>Terrain/snow2.png</texture>
-     <texture n="11">Terrain/snow2.png</texture>
+     <texture>Terrain.CSP/snow2.png</texture>
+     <texture n="11">Terrain.CSP/snow2.png</texture>
     </texture-set>
     <parameters>
     	<hires_overlay_bias>0.12</hires_overlay_bias>
@@ -501,8 +501,8 @@
     <name>AirportKeep</name>
     <effect>Effects/airfield</effect>
     <texture-set>
-      <texture>Terrain/snow2.png</texture>
-      <texture n="13">Terrain/snow2.png</texture>    
+      <texture>Terrain.CSP/snow2.png</texture>
+      <texture n="13">Terrain.CSP/snow2.png</texture>    
       <texture n="14">Terrain.winter/airport_overlay.png</texture>
     </texture-set>
     <parameters>
@@ -543,9 +543,9 @@
     <texture>Terrain.winter/mixedcrop1.png</texture>
     <texture>Terrain.winter/mixedcrop4.png</texture>
     <texture>Terrain.winter/mixedcrop3.png</texture>
-    <object-mask>Terrain/mixedcrop1.mask.png</object-mask>
-    <object-mask>Terrain/mixedcrop4.mask.png</object-mask>
-    <object-mask>Terrain/mixedcrop3.mask.png</object-mask>
+    <object-mask>Terrain.CSP/mixedcrop1.mask.png</object-mask>
+    <object-mask>Terrain.CSP/mixedcrop4.mask.png</object-mask>
+    <object-mask>Terrain.CSP/mixedcrop3.mask.png</object-mask>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>2000000.0</light-coverage>
@@ -554,7 +554,7 @@
     <rolling-friction>0.1</rolling-friction>
     <bumpiness>0.7</bumpiness>
     <load-resistance>1e30</load-resistance>
-    <object-group include="Materials/base/farm-buildings.xml"/>
+    <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <wood-coverage>10000.0</wood-coverage>
     <tree-texture>Trees/mixed-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
@@ -572,9 +572,9 @@
     <texture>Terrain.winter/irrcrop1.png</texture>
     <texture>Terrain.winter/irrcrop2.png</texture>
     <texture>Terrain.winter/irrcrop3.png</texture>
-    <object-mask>Terrain/irrcrop1.mask.png</object-mask>
-    <object-mask>Terrain/irrcrop2.mask.png</object-mask>
-    <object-mask>Terrain/irrcrop3.mask.png</object-mask>
+    <object-mask>Terrain.CSP/irrcrop1.mask.png</object-mask>
+    <object-mask>Terrain.CSP/irrcrop2.mask.png</object-mask>
+    <object-mask>Terrain.CSP/irrcrop3.mask.png</object-mask>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>2000000.0</light-coverage>
@@ -583,7 +583,7 @@
     <rolling-friction>0.3</rolling-friction>
     <bumpiness>0.6</bumpiness>
     <load-resistance>1e30</load-resistance>
-    <object-group include="Materials/base/farm-buildings.xml"/>
+    <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <wood-coverage>10000.0</wood-coverage>
     <tree-texture>Trees/mixed-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
@@ -598,10 +598,10 @@
     <texture>Terrain.winter/drycrop2.png</texture>
     <texture>Terrain.winter/drycrop3.png</texture>
     <texture>Terrain.winter/drycrop4.png</texture>
-    <object-mask>Terrain/drycrop1.mask.png</object-mask>
-    <object-mask>Terrain/drycrop2.mask.png</object-mask>
-    <object-mask>Terrain/drycrop3.mask.png</object-mask>
-    <object-mask>Terrain/drycrop4.mask.png</object-mask>
+    <object-mask>Terrain.CSP/drycrop1.mask.png</object-mask>
+    <object-mask>Terrain.CSP/drycrop2.mask.png</object-mask>
+    <object-mask>Terrain.CSP/drycrop3.mask.png</object-mask>
+    <object-mask>Terrain.CSP/drycrop4.mask.png</object-mask>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <solid>1</solid>
@@ -610,7 +610,7 @@
     <bumpiness>0.6</bumpiness>
     <load-resistance>1e30</load-resistance>
     <light-coverage>2000000.0</light-coverage>
-    <object-group include="Materials/base/farm-buildings.xml"/>
+    <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <wood-coverage>10000.0</wood-coverage>
     <tree-texture>Trees/mixed-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
@@ -621,7 +621,7 @@
   <material>
     <name>NaturalCrop</name>
     <texture>Terrain.winter/naturalcrop1.png</texture>
-    <object-mask>Terrain/naturalcrop1.mask.png</object-mask>
+    <object-mask>Terrain.CSP/naturalcrop1.mask.png</object-mask>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <solid>1</solid>
@@ -630,7 +630,7 @@
     <bumpiness>0.6</bumpiness>
     <load-resistance>1e30</load-resistance>
     <light-coverage>2000000.0</light-coverage>
-    <object-group include="Materials/base/farm-buildings.xml"/>
+    <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <wood-coverage>10000.0</wood-coverage>
     <tree-texture>Trees/mixed-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
@@ -676,7 +676,7 @@
   <material>
     <name>GolfCourse</name>
     <texture>Terrain.winter/golfcourse1.png</texture>
-    <object-mask>Terrain/golfcourse1.mask.png</object-mask>
+    <object-mask>Terrain.CSP/golfcourse1.mask.png</object-mask>
     <xsize>800</xsize>
     <ysize>800</ysize>
     <light-coverage>2000000.0</light-coverage>
@@ -710,7 +710,7 @@
     <name>CropWood</name>
     <name>AgroForest</name>
     <texture>Terrain.winter/cropwood.png</texture>
-    <object-mask>Terrain/cropwood.mask.png</object-mask>
+    <object-mask>Terrain.CSP/cropwood.mask.png</object-mask>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>2000000.0</light-coverage>

@@ -24,10 +24,10 @@
     <name>Greenspace</name>
     <effect>Effects/airfield</effect>
     <texture-set>
-      <texture>Terrain/grass_dry2.png</texture>
-      <texture n="13">Terrain/grass_dry2a.png</texture>
-      <texture n="14">Terrain/grass_dry2.png</texture>
-      <texture n="15">Terrain/airport_grass_overlay.png</texture>
+      <texture>Terrain.CSP/grass_dry2.png</texture>
+      <texture n="13">Terrain.CSP/grass_dry2a.png</texture>
+      <texture n="14">Terrain.CSP/grass_dry2.png</texture>
+      <texture n="15">Terrain.CSP/airport_grass_overlay.png</texture>
     </texture-set>
     <parameters>
       <grit_alpha>0.4</grit_alpha>
@@ -69,12 +69,12 @@
     <name>Rock</name>
     <name>Dump</name>
     <texture-set>
-      <texture>Terrain/shrub-hawaii.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
-      <texture n="12">Terrain/rock_red.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
-      <texture n="14">Terrain/grain_texture.png</texture>
-      <texture n="15">Terrain/airport_grass2.png</texture>
+      <texture>Terrain.CSP/shrub-hawaii.png</texture>
+      <texture n="11">Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="12">Terrain.CSP/rock_red.png</texture>
+      <texture n="13">Terrain.CSP/rock_red.png</texture>
+      <texture n="14">Terrain.CSP/grain_texture.png</texture>
+      <texture n="15">Terrain.CSP/airport_grass2.png</texture>
     </texture-set>
     <parameters>
       <grain_strength>0.7</grain_strength>
@@ -97,10 +97,10 @@
     <name>Bog</name>
     <name>Heath</name>
     <texture-set>
-      <texture>Terrain/rainforest-hawaii.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
-      <texture n="12">Terrain/tundra-hawaii.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
+      <texture>Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="11">Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="12">Terrain.CSP/tundra-hawaii.png</texture>
+      <texture n="13">Terrain.CSP/rock_red.png</texture>
     </texture-set>
     <parameters>
       <transition_model>1.0</transition_model>
@@ -125,10 +125,10 @@
     <name>Scrub</name>
     <name>Sclerophyllous</name>
     <texture-set>
-      <texture>Terrain/tundra-hawaii.png</texture>
-      <texture n="12">Terrain/shrub-hawaii.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
-      <texture n="15">Terrain/rainforest-hawaii.png</texture>
+      <texture>Terrain.CSP/tundra-hawaii.png</texture>
+      <texture n="12">Terrain.CSP/shrub-hawaii.png</texture>
+      <texture n="13">Terrain.CSP/rock_red.png</texture>
+      <texture n="15">Terrain.CSP/rainforest-hawaii.png</texture>
     </texture-set>
     <parameters>
       <dot_size>10.0</dot_size>
@@ -167,9 +167,9 @@
     <name>Grassland</name>
     <name>NaturalCrop</name>
     <texture-set>
-      <texture>Terrain/cropgrass-madagascar.png</texture>
-      <texture n="12">Terrain/shrub-hawaii.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
+      <texture>Terrain.CSP/cropgrass-madagascar.png</texture>
+      <texture n="12">Terrain.CSP/shrub-hawaii.png</texture>
+      <texture n="13">Terrain.CSP/rock_red.png</texture>
     </texture-set>
     <parameters>
      <transition_model>0.5</transition_model>
@@ -191,11 +191,11 @@
     <name>Cemetery</name>
     <effect>Effects/landmass-nowood</effect>
     <texture-set>
-      <texture>Terrain/tundra-hawaii.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
-      <texture n="12">Terrain/shrub-hawaii.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
-      <texture n="15">Terrain/airport_grass2.png</texture>
+      <texture>Terrain.CSP/tundra-hawaii.png</texture>
+      <texture n="11">Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="12">Terrain.CSP/shrub-hawaii.png</texture>
+      <texture n="13">Terrain.CSP/rock_red.png</texture>
+      <texture n="15">Terrain.CSP/airport_grass2.png</texture>
     </texture-set>
     <parameters>
       <hires_overlay_bias>0.0</hires_overlay_bias>
@@ -227,9 +227,9 @@
     <name>DryCropPastureCover</name>
     <name>DryCrop</name>
     <texture-set>
-      <texture>Terrain/dry_pasture4.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
+      <texture>Terrain.CSP/dry_pasture4.png</texture>
+      <texture n="11">Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="13">Terrain.CSP/rock_red.png</texture>
     </texture-set>
     <parameters>
       <hires_overlay_bias>-0.2</hires_overlay_bias>
@@ -246,7 +246,7 @@
 
   <material>
     <name>Sand</name>
-    <texture>Terrain/sand-hawaii4.png</texture>
+    <texture>Terrain.CSP/sand-hawaii4.png</texture>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>10000000.0</light-coverage>

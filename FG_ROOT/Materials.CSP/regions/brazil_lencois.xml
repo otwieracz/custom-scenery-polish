@@ -12,7 +12,7 @@
   <material>
     <name>Sand</name>
     <texture-set>
-	    <texture>Terrain/dunes-lencois.png</texture>
+	    <texture>Terrain.CSP/dunes-lencois.png</texture>
     </texture-set>
     <xsize>4000</xsize>
     <ysize>4000</ysize>
@@ -24,8 +24,8 @@
   <material>
     <name>Scrub</name>
     <texture-set>
-	    <texture>Terrain/dunes.png</texture>
-    	<texture n="11">Terrain/grass-caribbean.png</texture>
+	    <texture>Terrain.CSP/dunes.png</texture>
+    	<texture n="11">Terrain.CSP/grass-caribbean.png</texture>
     </texture-set>
 		<parameters>
 			<hires_overlay_bias>-0.07</hires_overlay_bias>
@@ -41,8 +41,8 @@
   <material>
     <name>Grassland</name>
     <texture-set>
-	    <texture>Terrain/dunes.png</texture>
-    	<texture n="11">Terrain/grass-caribbean.png</texture>
+	    <texture>Terrain.CSP/dunes.png</texture>
+    	<texture n="11">Terrain.CSP/grass-caribbean.png</texture>
     </texture-set>
 		<parameters>
 			<hires_overlay_bias>0</hires_overlay_bias>

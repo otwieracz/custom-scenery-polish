@@ -48,9 +48,9 @@
     <name>Greenspace</name>
     <effect>Effects/airfield</effect>
     <texture-set>
-      <texture>Terrain/california-grass.png</texture>
-      <texture n="13">Terrain/california-grass.png</texture>
-      <texture n="14">Terrain/airport_grass_overlay.png</texture>
+      <texture>Terrain.CSP/california-grass.png</texture>
+      <texture n="13">Terrain.CSP/california-grass.png</texture>
+      <texture n="14">Terrain.CSP/airport_grass_overlay.png</texture>
     </texture-set>
     <parameters>
       <grit_alpha>0.4</grit_alpha>
@@ -92,8 +92,8 @@
     <name>DeciduousNeedleCover</name>
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/rainforest-hawaii.png</texture>
-	    <texture n="11">Terrain/pampas-grass.png</texture>
+      <texture>Terrain.CSP/rainforest-hawaii.png</texture>
+	    <texture n="11">Terrain.CSP/pampas-grass.png</texture>
     </texture-set>
 		<parameters>
 			<hires_overlay_bias>-0.1</hires_overlay_bias>
@@ -117,12 +117,12 @@
     <name>GrassCover</name>
     <effect>Effects/forest</effect>
     <texture-set>
-	    <texture>Terrain/pampas-grass.png</texture>
-	    <texture n="11">Terrain/pampas-grass-hires.png</texture>
-	    <texture n="12">Terrain/grass_dry2a.png</texture>
-      <texture n="15">Terrain/airport_grass2.png</texture>
+	    <texture>Terrain.CSP/pampas-grass.png</texture>
+	    <texture n="11">Terrain.CSP/pampas-grass-hires.png</texture>
+	    <texture n="12">Terrain.CSP/grass_dry2a.png</texture>
+      <texture n="15">Terrain.CSP/airport_grass2.png</texture>
     </texture-set>
-    <object-mask>Terrain/drycrop1.mask.png</object-mask>
+    <object-mask>Terrain.CSP/drycrop1.mask.png</object-mask>
 		<parameters>
 			<grain_strength>0.5</grain_strength>			
 			<hires_overlay_bias>-0.2</hires_overlay_bias>
@@ -151,11 +151,11 @@
     <name>WoodedWetlandCover</name>
     <effect>Effects/forest</effect>
     <texture-set>
-	    <texture>Terrain/pampas-shrub.png</texture>
-	    <texture n="11">Terrain/pampas-grass.png</texture>
-      <texture n="15">Terrain/airport_grass2.png</texture>
+	    <texture>Terrain.CSP/pampas-shrub.png</texture>
+	    <texture n="11">Terrain.CSP/pampas-grass.png</texture>
+      <texture n="15">Terrain.CSP/airport_grass2.png</texture>
     </texture-set>
-    <object-mask>Terrain/cerrado-crop2-mask.png</object-mask>    
+    <object-mask>Terrain.CSP/cerrado-crop2-mask.png</object-mask>    
 		<parameters>
 			<grain_strength>0.5</grain_strength>			
 			<hires_overlay_bias>-0.03</hires_overlay_bias>
@@ -175,8 +175,8 @@
   <material>
     <name>DryCropPastureCover</name>
     <name>DryCrop</name>
-    <texture>Terrain/cerrado-crop.png</texture>
-    <object-mask>Terrain/cerrado-crop-mask.png</object-mask>    
+    <texture>Terrain.CSP/cerrado-crop.png</texture>
+    <object-mask>Terrain.CSP/cerrado-crop-mask.png</object-mask>    
     <xsize>4000</xsize>
     <ysize>4000</ysize>
     <light-coverage>900000000.0</light-coverage>
@@ -193,8 +193,8 @@
     <name>ComplexCrop</name>
     <name>MixedCrop</name>
     <name>MixedCropPastureCover</name>
-    <texture>Terrain/cerrado-crop.png</texture>
-    <object-mask>Terrain/cerrado-crop-mask.png</object-mask>    
+    <texture>Terrain.CSP/cerrado-crop.png</texture>
+    <object-mask>Terrain.CSP/cerrado-crop-mask.png</object-mask>    
     <xsize>4000</xsize>
     <ysize>4000</ysize>
     <light-coverage>900000000.0</light-coverage>

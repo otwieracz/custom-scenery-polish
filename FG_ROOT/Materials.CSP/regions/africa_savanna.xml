@@ -26,10 +26,10 @@
     <name>DeciduousNeedleCover</name>
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/savanna-grass.png</texture>
-      <texture n="11">Terrain/savanna-overlay.png</texture>
-      <texture n="13">Terrain/rock_brown.png</texture>
-      <texture n="15">Terrain/airport_grass2.png</texture>
+      <texture>Terrain.CSP/savanna-grass.png</texture>
+      <texture n="11">Terrain.CSP/savanna-overlay.png</texture>
+      <texture n="13">Terrain.CSP/rock_brown.png</texture>
+      <texture n="15">Terrain.CSP/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
 			<grain_strength>0.5</grain_strength>			
@@ -56,10 +56,10 @@
     <name>GrassCover</name>
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/savanna-grass2.png</texture>      
-      <texture n="11">Terrain/savanna-grass.png</texture>
-      <texture n="13">Terrain/rock_brown.png</texture>
-      <texture n="15">Terrain/airport_grass2.png</texture>
+      <texture>Terrain.CSP/savanna-grass2.png</texture>      
+      <texture n="11">Terrain.CSP/savanna-grass.png</texture>
+      <texture n="13">Terrain.CSP/rock_brown.png</texture>
+      <texture n="15">Terrain.CSP/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
 			<grain_strength>0.5</grain_strength>			
@@ -89,10 +89,10 @@
     <name>WoodedWetlandCover</name>
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/savanna-grass.png</texture>
-      <texture n="11">Terrain/savanna-overlay.png</texture>
-      <texture n="13">Terrain/rock_brown.png</texture>
-      <texture n="15">Terrain/airport_grass2.png</texture>
+      <texture>Terrain.CSP/savanna-grass.png</texture>
+      <texture n="11">Terrain.CSP/savanna-overlay.png</texture>
+      <texture n="13">Terrain.CSP/rock_brown.png</texture>
+      <texture n="15">Terrain.CSP/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
 			<grain_strength>0.5</grain_strength>			
@@ -115,10 +115,10 @@
     <name>DryCrop</name>
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/savanna-grass.png</texture>
-      <texture n="11">Terrain/savanna-overlay.png</texture>
-      <texture n="13">Terrain/rock_brown.png</texture>
-      <texture n="15">Terrain/airport_grass2.png</texture>
+      <texture>Terrain.CSP/savanna-grass.png</texture>
+      <texture n="11">Terrain.CSP/savanna-overlay.png</texture>
+      <texture n="13">Terrain.CSP/rock_brown.png</texture>
+      <texture n="15">Terrain.CSP/airport_grass2.png</texture>
     </texture-set>
 		<parameters>
 			<grain_strength>0.5</grain_strength>			
@@ -143,15 +143,15 @@
     <name>SubUrban</name>
     <effect>Effects/urban</effect>
     <texture-set>
-      <texture>Terrain/city1-middle-east.png</texture>
-      <texture n="2">Terrain/city1-relief-light.png</texture>
+      <texture>Terrain.CSP/city1-middle-east.png</texture>
+      <texture n="2">Terrain.CSP/city1-relief-light.png</texture>
     </texture-set>
     <texture-set>
-      <texture>Terrain/city2-middle-east.png</texture>
-      <texture n="2">Terrain/city2-relief-light.png</texture>
+      <texture>Terrain.CSP/city2-middle-east.png</texture>
+      <texture n="2">Terrain.CSP/city2-relief-light.png</texture>
     </texture-set>
-    <object-mask>Terrain/city1.mask.png</object-mask>
-    <object-mask>Terrain/city2.mask.png</object-mask>
+    <object-mask>Terrain.CSP/city1.mask.png</object-mask>
+    <object-mask>Terrain.CSP/city2.mask.png</object-mask>
     <xsize>1000</xsize>
     <ysize>1000</ysize>
     <light-coverage>100000.0</light-coverage>
@@ -161,7 +161,7 @@
       <b>0.02</b>
       <a>1.0</a>
     </emissive>
-    <object-group include="Materials/base/urban-buildings.xml"/>
+    <object-group include="Materials.CSP/base/urban-buildings.xml"/>
     <building-coverage>2500.0</building-coverage>
     <building-small-ratio>0.4</building-small-ratio>
     <building-small-min-floors>3</building-small-min-floors>

@@ -32,7 +32,7 @@
       <texture>Terrain.winter/18th_century_city-winter.png</texture>
       <texture n="2">Terrain.winter/18th_century_city-winter-relief-light.png</texture>
     </texture-set>    
-    <object-mask>Terrain/18th_century_city.mask.png</object-mask>
+    <object-mask>Terrain.CSP/18th_century_city.mask.png</object-mask>
     <xsize>1000</xsize>
     <ysize>1000</ysize>
     <light-coverage>100000.0</light-coverage>
@@ -42,7 +42,7 @@
       <b>0.02</b>
       <a>1.0</a>
     </emissive>
-    <object-group include="Materials/base/urban-buildings.xml"/>
+    <object-group include="Materials.CSP/base/urban-buildings.xml"/>
     <building-coverage>500.0</building-coverage>
     <building-small-ratio>0.4</building-small-ratio>
     <building-small-min-floors>3</building-small-min-floors>
@@ -68,7 +68,7 @@
       <texture>Terrain.winter/town-europe-winter.png</texture>
       <texture n="2">Terrain.winter/town-europe-winter-relief-light.png</texture>
     </texture-set>    
-    <object-mask>Terrain/town-europe.mask.png</object-mask>
+    <object-mask>Terrain.CSP/town-europe.mask.png</object-mask>
     <xsize>1024</xsize>
     <ysize>1024</ysize>
     <light-coverage>100000.0</light-coverage>
@@ -78,7 +78,7 @@
       <b>0.02</b>
       <a>1.0</a>
     </emissive>
-    <object-group include="Materials/base/town-buildings.xml"/>
+    <object-group include="Materials.CSP/base/town-buildings.xml"/>
     <building-coverage>500.0</building-coverage>
     <building-small-ratio>0.9</building-small-ratio>
     <building-medium-ratio>0.1</building-medium-ratio>

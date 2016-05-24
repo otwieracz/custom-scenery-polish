@@ -15,7 +15,7 @@
    </equals>
   </condition>
 
-  <material include="Materials/base/runway_effect.xml">
+  <material include="Materials.CSP/base/runway_effect.xml">
   <name>pa_shoulder</name>
     <texture>Runway/pa_shoulder2.png</texture>
     <parameters>
@@ -23,7 +23,7 @@
     </parameters>
   </material>
 
-  <material include="Materials/base/runway_effect.xml">
+  <material include="Materials.CSP/base/runway_effect.xml">
   <name>pa_shoulder_f</name>
     <texture>Runway/pa_shoulder_f2.png</texture>
     <parameters>
@@ -36,9 +36,9 @@
     <name>EvergreenForest</name>
     <effect>Effects/forest</effect>
 	<texture-set>
-    <texture>Terrain/forest1a.png</texture>
-	<texture n="12">Terrain/rock_red.png</texture>
-	<texture n="13">Terrain/rock_red.png</texture>
+    <texture>Terrain.CSP/forest1a.png</texture>
+	<texture n="12">Terrain.CSP/rock_red.png</texture>
+	<texture n="13">Terrain.CSP/rock_red.png</texture>
 	</texture-set>
 	<parameters>
 	  <rock_strata>1</rock_strata>

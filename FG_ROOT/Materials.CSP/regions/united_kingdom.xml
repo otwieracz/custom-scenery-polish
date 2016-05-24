@@ -29,9 +29,9 @@
     <name>Scrub</name>
     <name>Sclerophyllous</name>
     <name>Heath</name>
-    <texture>Terrain/shrub1.png</texture>
-    <texture>Terrain/shrub2.png</texture>
-    <texture>Terrain/shrub3.png</texture>
+    <texture>Terrain.CSP/shrub1.png</texture>
+    <texture>Terrain.CSP/shrub2.png</texture>
+    <texture>Terrain.CSP/shrub3.png</texture>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <diffuse>
@@ -67,7 +67,7 @@
     <effect>Effects/forest</effect>
     <name>DeciduousBroadCover</name>
     <name>DeciduousForest</name>
-    <texture>Terrain/deciduous-hires.png</texture>
+    <texture>Terrain.CSP/deciduous-hires.png</texture>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>10000000.0</light-coverage>
@@ -94,9 +94,9 @@
     <name>HerbWetlandCover</name>
     <name>WoodedWetlandCover</name>
     <name>Bog</name>
-    <texture>Terrain/marsh2a.png</texture>
-    <texture>Terrain/marsh3a.png</texture>
-    <texture>Terrain/marsh4a.png</texture>
+    <texture>Terrain.CSP/marsh2a.png</texture>
+    <texture>Terrain.CSP/marsh3a.png</texture>
+    <texture>Terrain.CSP/marsh4a.png</texture>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>10000000.0</light-coverage>
@@ -116,12 +116,12 @@
     <!--<effect>Effects/transition-base-dirt</effect>-->
     <name>DryCropPastureCover</name>
     <name>DryCrop</name>
-    <texture>Terrain/uk_countryside1.png</texture>
-    <texture>Terrain/uk_countryside2.png</texture>
-    <object-mask>Terrain/countryside1.green.mask.png</object-mask>
-    <object-mask>Terrain/countryside2.green.mask.png</object-mask>
-    <!--<object-mask>Terrain/countryside3.green.mask.png</object-mask>
-		<object-mask>Terrain/countryside4.green.mask.png</object-mask>-->
+    <texture>Terrain.CSP/uk_countryside1.png</texture>
+    <texture>Terrain.CSP/uk_countryside2.png</texture>
+    <object-mask>Terrain.CSP/countryside1.green.mask.png</object-mask>
+    <object-mask>Terrain.CSP/countryside2.green.mask.png</object-mask>
+    <!--<object-mask>Terrain.CSP/countryside3.green.mask.png</object-mask>
+		<object-mask>Terrain.CSP/countryside4.green.mask.png</object-mask>-->
     <xsize>1800</xsize>
     <ysize>1800</ysize>
     <solid>1</solid>
@@ -130,7 +130,7 @@
     <bumpiness>0.6</bumpiness>
     <load-resistance>1e30</load-resistance>
     <light-coverage>2000000.0</light-coverage>
-    <object-group include="Materials/base/farm-buildings.xml"/>
+    <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <wood-coverage>2000.0</wood-coverage>
     <tree-texture>Trees/deciduous-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
@@ -151,14 +151,14 @@
     <name>ComplexCrop</name>
     <name>IrrCrop</name>
     <name>Default</name>
-    <texture>Terrain/countryside1.green.png</texture>
-    <texture>Terrain/countryside2.green.png</texture>
-    <texture>Terrain/countryside3.green.png</texture>
-    <texture>Terrain/countryside4.green.png</texture>
-    <object-mask>Terrain/countryside1.green.mask.png</object-mask>
-    <object-mask>Terrain/countryside2.green.mask.png</object-mask>
-    <object-mask>Terrain/countryside3.green.mask.png</object-mask>
-    <object-mask>Terrain/countryside4.green.mask.png</object-mask>
+    <texture>Terrain.CSP/countryside1.green.png</texture>
+    <texture>Terrain.CSP/countryside2.green.png</texture>
+    <texture>Terrain.CSP/countryside3.green.png</texture>
+    <texture>Terrain.CSP/countryside4.green.png</texture>
+    <object-mask>Terrain.CSP/countryside1.green.mask.png</object-mask>
+    <object-mask>Terrain.CSP/countryside2.green.mask.png</object-mask>
+    <object-mask>Terrain.CSP/countryside3.green.mask.png</object-mask>
+    <object-mask>Terrain.CSP/countryside4.green.mask.png</object-mask>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>2000000.0</light-coverage>
@@ -167,7 +167,7 @@
     <rolling-friction>0.1</rolling-friction>
     <bumpiness>0.7</bumpiness>
     <load-resistance>1e30</load-resistance>
-    <object-group include="Materials/base/farm-buildings.xml"/>
+    <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <wood-coverage>2000.0</wood-coverage>
     <tree-texture>Trees/deciduous-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
@@ -187,8 +187,8 @@
     <name>CropGrassCover</name>
     <name>CropGrass</name>
     <name>Grassland</name>
-    <texture>Terrain/cropgrass-hires.png</texture>
-    <object-mask>Terrain/cropgrass-hires.mask.png</object-mask>
+    <texture>Terrain.CSP/cropgrass-hires.png</texture>
+    <object-mask>Terrain.CSP/cropgrass-hires.mask.png</object-mask>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>2000000.0</light-coverage>
@@ -211,7 +211,7 @@
     <bumpiness>0.3</bumpiness>
     <load-resistance>1e30</load-resistance>
     <wood-coverage>5000.0</wood-coverage>
-    <object-group include="Materials/base/farm-buildings.xml"/>
+    <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <tree-texture>Trees/deciduous-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
     <tree-height-m>15.0</tree-height-m>
@@ -226,10 +226,10 @@
       </equals>
     </condition>
     <name>GrassCover</name>
-    <texture>Terrain/grass.png</texture>
-    <texture>Terrain/iceland_grass.png</texture>
-    <!--<texture>Terrain/grass_green_hires.png</texture>-->
-    <texture>Terrain/dry_pasture4.png</texture>
+    <texture>Terrain.CSP/grass.png</texture>
+    <texture>Terrain.CSP/iceland_grass.png</texture>
+    <!--<texture>Terrain.CSP/grass_green_hires.png</texture>-->
+    <texture>Terrain.CSP/dry_pasture4.png</texture>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>2000000.0</light-coverage>
@@ -258,8 +258,8 @@
     <name>MixedCropPastureCover</name>
     <name>IrrCropPastureCover</name>
     <name>ComplexCrop</name>
-    <texture>Terrain/irrcrop-europe.png</texture>
-    <object-mask>Terrain/irrcrop-europe.mask.png</object-mask>
+    <texture>Terrain.CSP/irrcrop-europe.png</texture>
+    <object-mask>Terrain.CSP/irrcrop-europe.mask.png</object-mask>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>2000000.0</light-coverage>
@@ -268,7 +268,7 @@
     <rolling-friction>0.1</rolling-friction>
     <bumpiness>0.7</bumpiness>
     <load-resistance>1e30</load-resistance>
-    <object-group include="Materials/base/farm-buildings.xml"/>
+    <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <wood-coverage>5000.0</wood-coverage>
     <tree-texture>Trees/deciduous-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
@@ -280,8 +280,8 @@
     <effect>Effects/crop</effect>
     <name>Orchard</name>
     <name>Vineyard</name>
-    <texture>Terrain/orchard.png</texture>
-    <object-mask>Terrain/orchard.mask.png</object-mask>
+    <texture>Terrain.CSP/orchard.png</texture>
+    <object-mask>Terrain.CSP/orchard.mask.png</object-mask>
     <xsize>1000</xsize>
     <ysize>1000</ysize>
     <light-coverage>2000000.0</light-coverage>
@@ -290,7 +290,7 @@
     <rolling-friction>0.9</rolling-friction>
     <bumpiness>0.95</bumpiness>
     <load-resistance>1e30</load-resistance>
-    <object-group include="Materials/base/farm-buildings.xml"/>
+    <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <wood-coverage>2000.0</wood-coverage>
     <tree-texture>Trees/deciduous-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
@@ -302,8 +302,8 @@
   <material>
     <name>BuiltUpCover</name>
     <name>Urban</name>
-    <texture>Terrain/town-europe.png</texture>
-    <object-mask>Terrain/town-europe.mask.png</object-mask>
+    <texture>Terrain.CSP/town-europe.png</texture>
+    <object-mask>Terrain.CSP/town-europe.mask.png</object-mask>
     <xsize>1024</xsize>
     <ysize>1024</ysize>
     <light-coverage>100000.0</light-coverage>
@@ -313,7 +313,7 @@
       <b>0.02</b>
       <a>1.0</a>
     </emissive>
-    <object-group include="Materials/base/urban-buildings.xml"/>
+    <object-group include="Materials.CSP/base/urban-buildings.xml"/>
     <building-coverage>500.0</building-coverage>
     <building-small-ratio>0.4</building-small-ratio>
     <building-small-min-floors>3</building-small-min-floors>
@@ -334,8 +334,8 @@
   <material>
     <name>Town</name>
     <name>SubUrban</name>
-    <texture>Terrain/town-europe.png</texture>
-    <object-mask>Terrain/town-europe.mask.png</object-mask>
+    <texture>Terrain.CSP/town-europe.png</texture>
+    <object-mask>Terrain.CSP/town-europe.mask.png</object-mask>
     <xsize>1024</xsize>
     <ysize>1024</ysize>
     <light-coverage>100000.0</light-coverage>
@@ -345,7 +345,7 @@
       <b>0.02</b>
       <a>1.0</a>
     </emissive>
-    <object-group include="Materials/base/town-buildings.xml"/>
+    <object-group include="Materials.CSP/base/town-buildings.xml"/>
     <building-coverage>500.0</building-coverage>
     <building-small-ratio>0.9</building-small-ratio>
     <building-medium-ratio>0.1</building-medium-ratio>
@@ -363,7 +363,7 @@
   <material>
     <name>Littoral</name>
     <effect>Effects/water</effect>
-    <texture>Terrain/tidal.png</texture>
+    <texture>Terrain.CSP/tidal.png</texture>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <solid>1</solid>
@@ -377,7 +377,7 @@
   <material>
     <name>Dirt</name>
     <effect>Effects/transition-base-dirt</effect>
-    <texture>Terrain/mud.png</texture>
+    <texture>Terrain.CSP/mud.png</texture>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>10000000.0</light-coverage>

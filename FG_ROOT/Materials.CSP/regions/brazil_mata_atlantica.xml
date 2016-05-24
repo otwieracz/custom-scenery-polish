@@ -119,10 +119,10 @@
     <name>DeciduousNeedleCover</name>    
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/rainforest-hawaii.png</texture>
-      <texture n="11">Terrain/rainforest-patch.png</texture>
-      <texture n="12">Terrain/rainforest-patch.png</texture>
-      <texture n="13">Terrain/rock_brown.png</texture>
+      <texture>Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="11">Terrain.CSP/rainforest-patch.png</texture>
+      <texture n="12">Terrain.CSP/rainforest-patch.png</texture>
+      <texture n="13">Terrain.CSP/rock_brown.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -150,10 +150,10 @@
     <name>GrassCover</name>
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/rainforest-hawaii.png</texture>
-      <texture n="12">Terrain/rainforest-hawaii.png</texture>
-      <texture n="11">Terrain/grass_dry2a.png</texture>
-      <texture n="13">Terrain/rock_brown.png</texture>
+      <texture>Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="12">Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="11">Terrain.CSP/grass_dry2a.png</texture>
+      <texture n="13">Terrain.CSP/rock_brown.png</texture>
     </texture-set>
 		<parameters>
 			<hires_overlay_bias>-0.3</hires_overlay_bias>
@@ -177,10 +177,10 @@
     <name>DryCrop</name>
     <effect>Effects/forest</effect>
     <texture-set>
-      <texture>Terrain/rainforest-hawaii.png</texture>
-      <texture n="11">Terrain/rainforest-patch.png</texture>
-      <texture n="12">Terrain/dirtrock.png</texture>
-      <texture n="13">Terrain/rock_brown.png</texture>
+      <texture>Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="11">Terrain.CSP/rainforest-patch.png</texture>
+      <texture n="12">Terrain.CSP/dirtrock.png</texture>
+      <texture n="13">Terrain.CSP/rock_brown.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -201,8 +201,8 @@
     <name>Rock</name>
     <name>Dump</name>
     <texture-set>
-      <texture>Terrain/rock_brown2.png</texture>
-      <texture n="13">Terrain/rock_brown.png</texture>
+      <texture>Terrain.CSP/rock_brown2.png</texture>
+      <texture n="13">Terrain.CSP/rock_brown.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>

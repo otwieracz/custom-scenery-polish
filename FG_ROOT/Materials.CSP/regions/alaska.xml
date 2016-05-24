@@ -17,9 +17,9 @@
     <name>MixedForest</name>
     <name>RainForest</name>
     <texture-set>
-     <texture>Terrain/mixedforest-hires-autumn.png</texture>
-     <texture n="11">Terrain/grass_hires.png</texture>
-     <texture n="12">Terrain/herbtundra_iceland.png</texture>
+     <texture>Terrain.CSP/mixedforest-hires-autumn.png</texture>
+     <texture n="11">Terrain.CSP/grass_hires.png</texture>
+     <texture n="12">Terrain.CSP/herbtundra_iceland.png</texture>
     </texture-set>
     <parameters>
      <hires_overlay_bias>-0.05</hires_overlay_bias>
@@ -44,9 +44,9 @@
     <name>Bog</name>
     <name>Heath</name>
     <texture-set>
-     <texture>Terrain/deciduous-hires-autumn.png</texture>
-     <texture n="11">Terrain/grass_hires.png</texture>
-     <texture n="12">Terrain/herbtundra_iceland.png</texture>
+     <texture>Terrain.CSP/deciduous-hires-autumn.png</texture>
+     <texture n="11">Terrain.CSP/grass_hires.png</texture>
+     <texture n="12">Terrain.CSP/herbtundra_iceland.png</texture>
     </texture-set>
     <parameters>
      <hires_overlay_bias>-0.05</hires_overlay_bias>
@@ -73,11 +73,11 @@
     <name>Scrub</name>
     <name>Sclerophyllous</name>
     <texture-set>
-      <texture>Terrain/shrub1-autumn.png</texture>
-      <texture n="11">Terrain/grass_hires.png</texture>
-      <texture n="12">Terrain/herbtundra_iceland.png</texture>
-      <texture n="14">Terrain/grain_texture.png</texture>
-      <texture n="15">Terrain/airport_grass2.png</texture>
+      <texture>Terrain.CSP/shrub1-autumn.png</texture>
+      <texture n="11">Terrain.CSP/grass_hires.png</texture>
+      <texture n="12">Terrain.CSP/herbtundra_iceland.png</texture>
+      <texture n="14">Terrain.CSP/grain_texture.png</texture>
+      <texture n="15">Terrain.CSP/airport_grass2.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -110,9 +110,9 @@
     <effect>Effects/forest</effect>
     <tree-effect>Effects/tree-forest</tree-effect>
     <texture-set>
-     <texture>Terrain/forest1a.png</texture>
-     <texture n="11">Terrain/grass_hires.png</texture>
-     <texture n="12">Terrain/herbtundra_iceland.png</texture>
+     <texture>Terrain.CSP/forest1a.png</texture>
+     <texture n="11">Terrain.CSP/grass_hires.png</texture>
+     <texture n="12">Terrain.CSP/herbtundra_iceland.png</texture>
     </texture-set>
     <parameters>
      <hires_overlay_bias>-0.05</hires_overlay_bias>
@@ -132,8 +132,8 @@
   <material>
     <name>Sand</name>
     <texture-set>
-      <texture>Terrain/herbtundra_iceland.png</texture>
-      <texture n="11">Terrain/grass_hires.png</texture>
+      <texture>Terrain.CSP/herbtundra_iceland.png</texture>
+      <texture n="11">Terrain.CSP/grass_hires.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>

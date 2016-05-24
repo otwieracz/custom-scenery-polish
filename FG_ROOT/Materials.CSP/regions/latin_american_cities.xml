@@ -64,11 +64,11 @@
     <name>Urban</name>
     <effect>Effects/urban</effect>
     <texture-set>
-      <texture>Terrain/latin_american_city1.png</texture>
-      <texture n="2">Terrain/latin_american_city1-relief-light.png</texture>
-      <texture n="13">Terrain/rock_brown.png</texture>
+      <texture>Terrain.CSP/latin_american_city1.png</texture>
+      <texture n="2">Terrain.CSP/latin_american_city1-relief-light.png</texture>
+      <texture n="13">Terrain.CSP/rock_brown.png</texture>
     </texture-set>
-    <object-mask>Terrain/latin_american_city1.mask.png</object-mask>
+    <object-mask>Terrain.CSP/latin_american_city1.mask.png</object-mask>
     <xsize>1000</xsize>
     <ysize>1000</ysize>
     <light-coverage>100000.0</light-coverage>
@@ -78,7 +78,7 @@
       <b>0.02</b>
       <a>1.0</a>
     </emissive>
-    <object-group include="Materials/base/urban-buildings.xml"/>
+    <object-group include="Materials.CSP/base/urban-buildings.xml"/>
     <building-coverage>2500.0</building-coverage>
     <building-small-ratio>0.4</building-small-ratio>
     <building-small-min-floors>3</building-small-min-floors>
@@ -99,9 +99,9 @@
     <name>SubUrban</name>
     <effect>Effects/urban</effect>
     <texture-set>
-      <texture>Terrain/latin_american_city1.png</texture>
-      <texture n="2">Terrain/latin_american_city1-relief-light.png</texture>
-      <texture n="13">Terrain/rock_brown.png</texture>
+      <texture>Terrain.CSP/latin_american_city1.png</texture>
+      <texture n="2">Terrain.CSP/latin_american_city1-relief-light.png</texture>
+      <texture n="13">Terrain.CSP/rock_brown.png</texture>
     </texture-set>
     <xsize>1000</xsize>
     <ysize>1000</ysize>
@@ -112,7 +112,7 @@
       <b>0.02</b>
       <a>1.0</a>
     </emissive>
-    <object-group include="Materials/base/town-buildings.xml"/>
+    <object-group include="Materials.CSP/base/town-buildings.xml"/>
     <building-coverage>2500.0</building-coverage>
     <building-small-ratio>0.9</building-small-ratio>
     <building-medium-ratio>0.1</building-medium-ratio>

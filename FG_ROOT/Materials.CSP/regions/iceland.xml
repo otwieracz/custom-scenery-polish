@@ -23,11 +23,11 @@
     <name>BarrenCover</name>
     <name>Rock</name>
     <texture-set>
-     <texture>Terrain/lava1.png</texture>
-     <texture n="11">Terrain/grass_hires.png</texture>
-     <texture n="12">Terrain/rocks-lava.png</texture>
-     <texture n="13">Terrain/rocks-lava.png</texture>
-     <texture n="15">Terrain/rocks-lava.png</texture>
+     <texture>Terrain.CSP/lava1.png</texture>
+     <texture n="11">Terrain.CSP/grass_hires.png</texture>
+     <texture n="12">Terrain.CSP/rocks-lava.png</texture>
+     <texture n="13">Terrain.CSP/rocks-lava.png</texture>
+     <texture n="15">Terrain.CSP/rocks-lava.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -45,11 +45,11 @@
     <name>CropGrass</name>
     <name>Grassland</name>
     <texture-set>
-     <texture>Terrain/iceland_grass-autumn.png</texture>
-     <texture n="11">Terrain/grass_green_hires-autumn.png</texture>
-     <texture n="12">Terrain/dry_pasture4.png</texture>
-     <texture n="13">Terrain/rocks-lava.png</texture>
-     <texture n="15">Terrain/rock.png</texture>
+     <texture>Terrain.CSP/iceland_grass-autumn.png</texture>
+     <texture n="11">Terrain.CSP/grass_green_hires-autumn.png</texture>
+     <texture n="12">Terrain.CSP/dry_pasture4.png</texture>
+     <texture n="13">Terrain.CSP/rocks-lava.png</texture>
+     <texture n="15">Terrain.CSP/rock.png</texture>
     </texture-set>
     <parameters>
      <dot_density>0.1</dot_density>
@@ -69,11 +69,11 @@
   <material>
     <name>Sand</name>
     <texture-set>
-     <texture>Terrain/lava1.png</texture>
-     <texture n="11">Terrain/lava_hires.png</texture>
-     <texture n="12">Terrain/rocks-desert.png</texture>
-     <texture n="13">Terrain/rocks-desert.png</texture>
-     <texture n="15">Terrain/rocks-lava.png</texture>
+     <texture>Terrain.CSP/lava1.png</texture>
+     <texture n="11">Terrain.CSP/lava_hires.png</texture>
+     <texture n="12">Terrain.CSP/rocks-desert.png</texture>
+     <texture n="13">Terrain.CSP/rocks-desert.png</texture>
+     <texture n="15">Terrain.CSP/rocks-lava.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -93,11 +93,11 @@
     <name>Heath</name>
     <name>Sclerophyllous</name>
     <texture-set>
-     <texture>Terrain/shrub1-autumn.png</texture>
-     <texture n="11">Terrain/grass_green_hires-autumn.png</texture>
-     <texture n="12">Terrain/herbtundra_iceland.png</texture>
-     <texture n="13">Terrain/rocks-lava.png</texture>
-     <texture n="15">Terrain/rock.png</texture>
+     <texture>Terrain.CSP/shrub1-autumn.png</texture>
+     <texture n="11">Terrain.CSP/grass_green_hires-autumn.png</texture>
+     <texture n="12">Terrain.CSP/herbtundra_iceland.png</texture>
+     <texture n="13">Terrain.CSP/rocks-lava.png</texture>
+     <texture n="15">Terrain.CSP/rock.png</texture>
     </texture-set>
     <parameters>
      <dot_density>0.1</dot_density>
@@ -134,8 +134,8 @@
     <name>IntermittentReservoir</name>
     <name>IntermittentLake</name>
     <texture-set>
-      <texture>Terrain/lava_drylake.png</texture>
-    <texture n="11">Terrain/lava_drylake.png</texture>
+      <texture>Terrain.CSP/lava_drylake.png</texture>
+    <texture n="11">Terrain.CSP/lava_drylake.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -154,9 +154,9 @@
     <name>WoodedWetlandCover</name>
     <name>Bog</name>
     <texture-set>
-     <texture>Terrain/marsh4a-autumn.png</texture>
-     <texture n="12">Terrain/marsh4a-autumn.png</texture>
-     <texture n="11">Terrain/grass_hires.png</texture>
+     <texture>Terrain.CSP/marsh4a-autumn.png</texture>
+     <texture n="12">Terrain.CSP/marsh4a-autumn.png</texture>
+     <texture n="11">Terrain.CSP/grass_hires.png</texture>
     </texture-set>
     <parameters>
      <grain_strength>0.9</grain_strength>
@@ -177,10 +177,10 @@
     <name>HerbTundra</name>
     <effect>Effects/herbtundra</effect>
     <texture-set>
-     <texture>Terrain/herbtundra_iceland.png</texture>
-     <texture n="11">Terrain/grass_green_hires-autumn.png</texture>
-     <texture n="12">Terrain/rocks-lava.png</texture>
-     <texture n="15">Terrain/grass_hires.png</texture>
+     <texture>Terrain.CSP/herbtundra_iceland.png</texture>
+     <texture n="11">Terrain.CSP/grass_green_hires-autumn.png</texture>
+     <texture n="12">Terrain.CSP/rocks-lava.png</texture>
+     <texture n="15">Terrain.CSP/grass_hires.png</texture>
     </texture-set>
     <parameters>
      <dot_size>5.0</dot_size>

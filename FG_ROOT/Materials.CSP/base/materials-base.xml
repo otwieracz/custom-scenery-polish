@@ -4,7 +4,7 @@
 
   This file contains material definitions and settings shared across
   all material definition file. It is intended to be included within
-  materials.xml etc. using an include="Materials/materials-base.xml"
+  materials.xml etc. using an include="Materials.CSP/materials-base.xml"
   attribute
 
 -->

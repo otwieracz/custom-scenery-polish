@@ -38,10 +38,10 @@
     <name>SubUrban</name>
     <effect>Effects/urban</effect>
     <texture-set>
-      <texture>Terrain/mediterranean_city1.png</texture>
-      <texture n="2">Terrain/mediterranean_city1-relief-light.png</texture>
+      <texture>Terrain.CSP/mediterranean_city1.png</texture>
+      <texture n="2">Terrain.CSP/mediterranean_city1-relief-light.png</texture>
     </texture-set>
-    <object-mask>Terrain/mediterranean_city1.mask.png</object-mask>
+    <object-mask>Terrain.CSP/mediterranean_city1.mask.png</object-mask>
     <xsize>1000</xsize>
     <ysize>1000</ysize>
     <light-coverage>50000.0</light-coverage>
@@ -51,7 +51,7 @@
       <b>0.02</b>
       <a>1.0</a>
     </emissive>
-    <object-group include="Materials/base/urban-buildings.xml"/>
+    <object-group include="Materials.CSP/base/urban-buildings.xml"/>
     <building-coverage>5000.0</building-coverage>
     <building-small-ratio>0.8</building-small-ratio>
     <building-small-min-floors>1</building-small-min-floors>

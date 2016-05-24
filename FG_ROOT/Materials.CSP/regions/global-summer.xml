@@ -9,7 +9,6 @@
     </equals>
   </condition>
   
-  <!-- 
   <material>
     <name>Grass</name>
     <name>Airport</name>
@@ -17,9 +16,9 @@
     <name>Greenspace</name>
     <effect>Effects/airfield</effect>
     <texture-set>
-      <texture>Terrain/airport-grass-autumn.png</texture>
-      <texture n="13">Terrain/airport-grass-autumn.png</texture>
-      <texture n="14">Terrain/airport_grass_overlay.png</texture>
+      <texture>Terrain.CSP/airport-grass-autumn.png</texture>
+      <texture n="13">Terrain.CSP/airport-grass-autumn.png</texture>
+      <texture n="14">Terrain.CSP/airport_grass_overlay.png</texture>
     </texture-set>
     <parameters>
       <grit_alpha>0.4</grit_alpha>
@@ -50,31 +49,8 @@
     <rolling-friction>0.1</rolling-friction>
     <bumpiness>0.1</bumpiness>
     <load-resistance>1e30</load-resistance>    
-  </material>
-  -->
-
-  <material>
-    <name>Grass</name>
-    <name>Airport</name>
-    <name>AirportKeep</name>
-    <name>Greenspace</name>
-    <name>NaturalCrop</name>
-    <texture>Terrain.CSP/naturalcrop1-autumn.png</texture>
-    <object-mask>Terrain.CSP/naturalcrop1.mask.png</object-mask>
-    <xsize>2000</xsize>
-    <ysize>2000</ysize>
-    <solid>1</solid>
-    <friction-factor>0.9</friction-factor>
-    <rolling-friction>0.1</rolling-friction>
-    <bumpiness>0.6</bumpiness>
-    <load-resistance>1e30</load-resistance>
-    <light-coverage>2000000.0</light-coverage>
-    <object-group include="Materials/base/farm-buildings.xml"/>
-    <wood-coverage>10000.0</wood-coverage>
-    <tree-texture>Trees/mixed-alt.png</tree-texture>
-    <tree-varieties>8</tree-varieties>
-    <tree-height-m>20.0</tree-height-m>
-    <tree-width-m>12.0</tree-width-m>
+    <!-- uncomment this to get volumetric grass on airport keep-->
+    <!-- 
     <wood-coverage>10.0</wood-coverage>
     <tree-texture>Trees/grass_blades.png</tree-texture>
     <tree-varieties>1</tree-varieties>
@@ -82,8 +58,8 @@
     <tree-height-m>0.3</tree-height-m>
     <tree-width-m>1.0</tree-width-m> 
     <tree-effect>Effects/tree-grass</tree-effect> 
+    -->
   </material>
-
 
   <material>
     <name>Landmass</name>
@@ -91,9 +67,9 @@
     <name>Island</name>
     <name>Default</name>
     <effect>Effects/landmass-nowood</effect>
-    <texture>Terrain/forest1a.png</texture>
-    <texture>Terrain/forest1b.png</texture>
-    <texture>Terrain/forest1c.png</texture>
+    <texture>Terrain.CSP/forest1a.png</texture>
+    <texture>Terrain.CSP/forest1b.png</texture>
+    <texture>Terrain.CSP/forest1c.png</texture>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>10000000.0</light-coverage>
@@ -112,7 +88,7 @@
     <name>DeciduousForest</name>
     <name>Bog</name>
     <name>Heath</name>
-    <texture>Terrain/deciduous-hires-autumn.png</texture>
+    <texture>Terrain.CSP/deciduous-hires-autumn.png</texture>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>10000000.0</light-coverage>
@@ -130,7 +106,19 @@
     <name>MixedForestCover</name>
     <name>MixedForest</name>
     <name>RainForest</name>
-    <texture>Terrain/mixedforest-hires-autumn.png</texture>
+    <texture-set>
+      <texture>Terrain.CSP/naturalcrop1-autumn.png</texture>
+      <texture n="11">Terrain.CSP/mixedforest-hires-autumn.png</texture>
+      <texture n="12">Terrain.CSP/forest1b.png</texture>
+      <texture n="13">Terrain.CSP/forest1c.png</texture>
+      <texture n="14">Terrain.CSP/airport_grass2.png</texture>
+      <!-- <texture n="12">Terrain.CSP/forest1a.png</texture> -->
+      <!-- <texture n="13">Terrain.CSP/forest1b.png</texture> -->
+      <!-- <texture n="14">Terrain.CSP/forest1c.png</texture> -->
+    </texture-set>
+    <parameters>
+      <hires_overlay_bias>0.07</hires_overlay_bias>
+    </parameters>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>5000000.0</light-coverage>
@@ -143,13 +131,24 @@
     <bumpiness>0.95</bumpiness>
   </material>
 
+  <!--- GOOD FOREST! -->
   <material>
     <name>EvergreenBroadCover</name>
     <name>EvergreenForest</name>
     <effect>Effects/forest</effect>
-    <texture>Terrain.CSP/forest1a.png</texture>
-    <texture>Terrain.CSP/forest1b.png</texture>
-    <texture>Terrain.CSP/forest1c.png</texture>
+    <texture-set>
+      <texture>Terrain.CSP/naturalcrop1-autumn.png</texture>
+      <texture n="11">Terrain.CSP/forest1a.png</texture>
+      <texture n="12">Terrain.CSP/forest1b.png</texture>
+      <texture n="13">Terrain.CSP/forest1c.png</texture>
+      <texture n="14">Terrain.CSP/airport_grass2.png</texture>
+      <!-- <texture n="12">Terrain.CSP/forest1a.png</texture> -->
+      <!-- <texture n="13">Terrain.CSP/forest1b.png</texture> -->
+      <!-- <texture n="14">Terrain.CSP/forest1c.png</texture> -->
+    </texture-set>
+    <parameters>
+      <hires_overlay_bias>0.0</hires_overlay_bias>
+    </parameters>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>10000000.0</light-coverage>
@@ -285,7 +284,7 @@
       <b>0.02</b>
       <a>1.0</a>
     </emissive>
-    <object-group include="Materials/base/urban-buildings.xml"/>
+    <object-group include="Materials.CSP/base/urban-buildings.xml"/>
     <building-coverage>2500.0</building-coverage>
     <building-small-ratio>0.4</building-small-ratio>
     <building-small-min-floors>3</building-small-min-floors>
@@ -319,7 +318,7 @@
 		 <b>0.02</b>
 		 <a>1.0</a>
 		</emissive>
-		<object-group include="Materials/base/industrial-buildings.xml"/>
+		<object-group include="Materials.CSP/base/industrial-buildings.xml"/>
 	</material>
 	
 	<material>
@@ -346,7 +345,7 @@
 		 <b>0.02</b>
 		 <a>1.0</a>
 		</emissive>
-		<object-group include="Materials/base/industrial-buildings.xml"/>
+		<object-group include="Materials.CSP/base/industrial-buildings.xml"/>
 	</material>
 
   <!-- default town US style -->
@@ -367,7 +366,7 @@
       <b>0.02</b>
       <a>1.0</a>
     </emissive>
-    <object-group include="Materials/base/town-buildings.xml"/>
+    <object-group include="Materials.CSP/base/town-buildings.xml"/>
     <building-coverage>2500.0</building-coverage>
     <building-small-ratio>0.9</building-small-ratio>
     <building-medium-ratio>0.1</building-medium-ratio>
@@ -393,7 +392,7 @@
 		<load-resistance>1e10</load-resistance>
 	</material>
 
-  <material include="Materials/base/water.xml">
+  <material include="Materials.CSP/base/water.xml">
     <name>Ocean</name>
     <effect>Effects/water</effect>
     <texture>Terrain.CSP/water.png</texture>
@@ -624,7 +623,7 @@
     <rolling-friction>0.1</rolling-friction>
     <bumpiness>0.7</bumpiness>
     <load-resistance>1e30</load-resistance>
-    <object-group include="Materials/base/farm-buildings.xml"/>
+    <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <wood-coverage>10000.0</wood-coverage>
     <tree-texture>Trees/mixed-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
@@ -655,7 +654,7 @@
     <rolling-friction>0.3</rolling-friction>
     <bumpiness>0.6</bumpiness>
     <load-resistance>1e30</load-resistance>
-    <object-group include="Materials/base/farm-buildings.xml"/>
+    <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <wood-coverage>10000.0</wood-coverage>
     <tree-texture>Trees/mixed-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
@@ -684,7 +683,7 @@
     <bumpiness>0.6</bumpiness>
     <load-resistance>1e30</load-resistance>
     <light-coverage>2000000.0</light-coverage>
-    <object-group include="Materials/base/farm-buildings.xml"/>
+    <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <wood-coverage>10000.0</wood-coverage>
     <tree-texture>Trees/mixed-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>
@@ -704,7 +703,7 @@
     <bumpiness>0.6</bumpiness>
     <load-resistance>1e30</load-resistance>
     <light-coverage>2000000.0</light-coverage>
-    <object-group include="Materials/base/farm-buildings.xml"/>
+    <object-group include="Materials.CSP/base/farm-buildings.xml"/>
     <wood-coverage>10000.0</wood-coverage>
     <tree-texture>Trees/mixed-alt.png</tree-texture>
     <tree-varieties>8</tree-varieties>

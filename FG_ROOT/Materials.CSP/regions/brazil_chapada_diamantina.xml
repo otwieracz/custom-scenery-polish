@@ -17,9 +17,9 @@
     <name>MixedCropPastureCover</name>
     <effect>Effects/forest</effect>
     <texture-set>
-	    <texture>Terrain/tundra-hawaii.png</texture>
-    	<texture n="11">Terrain/dry_pasture4.png</texture>
-    	<texture n="13">Terrain/rock_red.png</texture>
+	    <texture>Terrain.CSP/tundra-hawaii.png</texture>
+    	<texture n="11">Terrain.CSP/dry_pasture4.png</texture>
+    	<texture n="13">Terrain.CSP/rock_red.png</texture>
     </texture-set>
 		<parameters>
 			<hires_overlay_bias>-0.18</hires_overlay_bias>
@@ -43,9 +43,9 @@
     <name>GrassCover</name>
     <effect>Effects/forest</effect>
     <texture-set>
-	    <texture>Terrain/tundra-hawaii.png</texture>
-    	<texture n="11">Terrain/pampas-grass-hires.png</texture>
-    	<texture n="13">Terrain/rock_red.png</texture>
+	    <texture>Terrain.CSP/tundra-hawaii.png</texture>
+    	<texture n="11">Terrain.CSP/pampas-grass-hires.png</texture>
+    	<texture n="13">Terrain.CSP/rock_red.png</texture>
     </texture-set>
 		<parameters>
 			<hires_overlay_bias>-0.03</hires_overlay_bias>

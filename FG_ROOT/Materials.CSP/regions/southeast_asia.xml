@@ -47,9 +47,9 @@
     <name>Greenspace</name>
     <effect>Effects/airfield</effect>
     <texture-set>
-      <texture>Terrain/california-grass.png</texture>
-      <texture n="13">Terrain/california-grass.png</texture>
-      <texture n="14">Terrain/airport_grass_overlay.png</texture>
+      <texture>Terrain.CSP/california-grass.png</texture>
+      <texture n="13">Terrain.CSP/california-grass.png</texture>
+      <texture n="14">Terrain.CSP/airport_grass_overlay.png</texture>
     </texture-set>
     <parameters>
       <grit_alpha>0.4</grit_alpha>
@@ -93,10 +93,10 @@
     <name>DeciduousForest</name>
     <name>DeciduousNeedleCover</name>
     <texture-set>
-      <texture>Terrain/rainforest-hawaii.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
-      <texture n="12">Terrain/shrub-hawaii.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
+      <texture>Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="11">Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="12">Terrain.CSP/shrub-hawaii.png</texture>
+      <texture n="13">Terrain.CSP/rock_red.png</texture>
     </texture-set>
     <parameters>
       <transition_model>0.8</transition_model>
@@ -122,11 +122,11 @@
     <name>HerbTundraCover</name>
     <effect>Effects/landmass-nowood</effect>
     <texture-set>
-      <texture>Terrain/tundra-hawaii-green.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
-      <texture n="12">Terrain/shrub-hawaii.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
-      <texture n="15">Terrain/airport_grass2.png</texture>
+      <texture>Terrain.CSP/tundra-hawaii-green.png</texture>
+      <texture n="11">Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="12">Terrain.CSP/shrub-hawaii.png</texture>
+      <texture n="13">Terrain.CSP/rock_red.png</texture>
+      <texture n="15">Terrain.CSP/airport_grass2.png</texture>
     </texture-set>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -164,16 +164,16 @@
     <name>Vineyard</name>
     <name>Rice</name>
     <texture-set>
-      <texture>Terrain/rice1.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
-      <texture n="12">Terrain/shrub-hawaii.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
+      <texture>Terrain.CSP/rice1.png</texture>
+      <texture n="11">Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="12">Terrain.CSP/shrub-hawaii.png</texture>
+      <texture n="13">Terrain.CSP/rock_red.png</texture>
     </texture-set>
     <parameters>
       <hires_overlay_bias>-0.1</hires_overlay_bias>
       <transition_model>1.0</transition_model>
     </parameters>
-    <!--<object-mask>Terrain/rice1.mask.png</object-mask>-->
+    <!--<object-mask>Terrain.CSP/rice1.mask.png</object-mask>-->
     <xsize>2000</xsize>
     <ysize>2000</ysize>
     <light-coverage>2000000.0</light-coverage>
@@ -182,7 +182,7 @@
     <rolling-friction>0.3</rolling-friction>
     <bumpiness>0.6</bumpiness>
     <load-resistance>1e30</load-resistance>
-    <!--<object-group include="Materials/base/farm-buildings.xml"/>-->
+    <!--<object-group include="Materials.CSP/base/farm-buildings.xml"/>-->
     <wood-coverage>120000.0</wood-coverage>
     <tree-texture>Trees/tropical.png</tree-texture>
     <tree-varieties>8</tree-varieties>
@@ -197,11 +197,11 @@
     <name>MixedCrop</name>
     <name>ComplexCrop</name>
     <texture-set>
-      <texture>Terrain/dry_pasture4.png</texture>
-      <texture n="11">Terrain/rainforest-hawaii.png</texture>
-      <texture n="12">Terrain/shrub-hawaii.png</texture>
-      <texture n="13">Terrain/rock_red.png</texture>
-      <texture n="15">Terrain/airport_grass2.png</texture>
+      <texture>Terrain.CSP/dry_pasture4.png</texture>
+      <texture n="11">Terrain.CSP/rainforest-hawaii.png</texture>
+      <texture n="12">Terrain.CSP/shrub-hawaii.png</texture>
+      <texture n="13">Terrain.CSP/rock_red.png</texture>
+      <texture n="15">Terrain.CSP/airport_grass2.png</texture>
     </texture-set>
     <parameters>
       <hires_overlay_bias>-0.1</hires_overlay_bias>

@@ -21,7 +21,7 @@
   <material>
     <name>Ocean</name>
     <effect>Effects/water</effect>
-    <texture>Terrain/water.png</texture>
+    <texture>Terrain.CSP/water.png</texture>
     <xsize>400</xsize>
     <ysize>400</ysize>
     <object-group>
