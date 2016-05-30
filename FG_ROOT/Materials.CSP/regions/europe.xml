@@ -63,7 +63,19 @@
     <tree-effect>Effects/tree-european-mixed</tree-effect>
     <name>CropGrassCover</name>
     <name>CropGrass</name>
-    <texture>Terrain.CSP/cropgrass-hires-autumn.png</texture>
+    <texture-set>
+      <texture>Terrain.CSP/cropgrass-hires-autumn.png</texture>
+      <texture n="11">Terrain.CSP/grass_dry2a_darker.png</texture>
+      <texture n="12">Terrain.CSP/grass_dry2a_darker.png</texture>
+      <texture n="11">Terrain.CSP/drycrop1-autumn.png</texture>
+      <texture n="11">Terrain.CSP/grass_marsh_hires.png</texture>
+      <texture n="11">Terrain.CSP/grass_hires.png</texture>
+    </texture-set>
+    <parameters>
+      <hires_overlay_bias>0.06</hires_overlay_bias>
+      <rotation_flag>1</rotation_flag>
+      <rotation_scale>2000.0</rotation_scale>
+    </parameters>
     <object-mask>Terrain.CSP/cropgrass-hires.mask.png</object-mask>
     <xsize>2000</xsize>
     <ysize>2000</ysize>
@@ -210,7 +222,7 @@
       <texture n="11">Terrain.CSP/grass_marsh_hires.png</texture>
     </texture-set>
     <parameters>
-      <hires_overlay_bias>-0.06</hires_overlay_bias>
+      <hires_overlay_bias>0.06</hires_overlay_bias>
       <rotation_flag>1</rotation_flag>
       <rotation_scale>2000.0</rotation_scale>
     </parameters>
