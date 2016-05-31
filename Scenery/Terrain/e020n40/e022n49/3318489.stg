@@ -2,13 +2,40 @@ OBJECT_BASE 3318489.btg
 OBJECT EP68.btg
 
 # e020n40/e022n49/3318489.stg
-#OBJECT_SHARED /home/otwieracz/dev/custom-scenery-polish/Scenery/Models/Weremien/pagorek.ac 22.32046772 49.44745252 399.9822 0.0 0.0 -0.0
-OBJECT_SHARED Models/Airport/windsock.xml 22.32046406 49.44745169 399.6253 0.0 0.0 -0.0
-OBJECT_SHARED Models/Weremien/LIME_hangarsemicircular.ac 22.31956523 49.44621926 402.1707 32.0 0.0 -0.0
-OBJECT_SHARED Models/Weremien/dhc2-baroudeur.ac 22.31955154 49.44642979 406.5297 0.0 0.0 -0.0
-OBJECT_SHARED Models/Weremien/ask21-red.ac 22.31985410 49.44719116 403.4202 0.0 0.0 -0.0
-OBJECT_SHARED Models/Weremien/germansemidetached2.ac 22.32361773 49.44890633 377.8348 304.0 0.0 -0.0
-OBJECT_SHARED Models/Weremien/germanvillagehouse3.ac 22.32333881 49.44868155 380.2129 32.0 0.0 -0.0
-#OBJECT_SHARED Models/Weremien/beczka.ac 22.32027708 49.44747897 399.6509 332.0 0.0 -0.0
-OBJECT_SHARED Models/Weremien/picnic_table.ac 22.32042132 49.44738304 401.1305 0.0 0.0 -0.0
-OBJECT_SHARED Models/Weremien/coleman-tow-tractor-odrab-low-poly.xml 22.31382037 49.44411945 477.0245 304.0 0.0 -0.0
+
+## Kwadrat
+# Pagorek
+OBJECT_SHARED Models/Weremien/pagorek.ac 22.3203130 49.4466610 402.2837 0.0 0.0 -0.0
+# Rekaw
+OBJECT_SHARED Models/Airport/windsock.xml 22.3203130 49.4466610 405.2837 0.0 0.0 -0.0
+# Stol
+OBJECT_SHARED Models/Weremien/picnic_table.ac 22.3202740 49.446567 403.4837 0.0 0.0 -0.0
+# Beczka
+OBJECT_SHARED Models/Weremien/beczka.ac 22.3201730 49.4466390 404.2837 128.0 0.0 -0.0
+# Hangar
+OBJECT_SHARED Models/Weremien/LIME_hangarsemicircular.ac 22.319614 49.445475 406 32.0 0.0 -0.0
+# A'la jak
+OBJECT_SHARED Models/Weremien/dhc2-baroudeur.ac 22.31959896 49.44566656 411.5517 0.0 0.0 -0.0
+# Szybowczyk 1
+OBJECT_SHARED Models/Weremien/ask21-red.ac 22.319956 49.446530 405 0.0 0.0 -0.0
+# Szybowczyk 2
+OBJECT_SHARED Models/Weremien/ask21-red.ac 22.320570 49.446728 402.4202 58.0 0.0 -0.0
+
+# Wyciagara
+OBJECT_SHARED Models/Weremien/coleman-tow-tractor-odrab-low-poly.xml 22.31492615 49.44342204 472.7876 304.0 0.0 -0.0
+
+## Domki
+# Wzdluz drogi:
+# 1 Najblizszy (Dudzinski?) 
+OBJECT_SHARED Models/Weremien/germansemidetached2.ac 22.322553 49.447586 391.3348 304.0 0.0 -0.0
+# 2 Drugi (Pasek?)
+OBJECT_SHARED Models/Weremien/germansemidetached2.ac 22.323277 49.447844 385.7348 304.0 0.0 -0.0
+# 3 Podlozny, zmienic
+OBJECT_SHARED Models/Weremien/germanvillagehouse3.ac 22.323866 49.448058 383.8348 45.0 0.0 -0.0
+# 4
+OBJECT_SHARED Models/Weremien/germansemidetached2.ac 22.324327 49.448178 385.7348 304.0 0.0 -0.0
+
+# Schronisko
+OBJECT_SHARED Models/Weremien/germansemidetached2.ac 22.318028 49.446749 411.8348 0.0 0.0 -0.0
+OBJECT_SHARED Models/Weremien/germansemidetached2.ac 22.318075 49.446653 411.8548 90.0 0.0 -0.0
+
