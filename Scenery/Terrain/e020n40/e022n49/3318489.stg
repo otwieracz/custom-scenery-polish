@@ -12,14 +12,19 @@ OBJECT_SHARED Models/Airport/windsock.xml 22.3203130 49.4466610 405.2837 0.0 0.0
 OBJECT_SHARED Models/Weremien/picnic_table.ac 22.3202740 49.446567 403.4837 0.0 0.0 -0.0
 # Beczka
 OBJECT_SHARED Models/Weremien/beczka.ac 22.3201730 49.4466390 404.2837 128.0 0.0 -0.0
-# Hangar
-OBJECT_SHARED Models/Weremien/LIME_hangarsemicircular.ac 22.319614 49.445475 406 32.0 0.0 -0.0
-# A'la jak
-OBJECT_SHARED Models/Weremien/dhc2-baroudeur.ac 22.31959896 49.44566656 411.5517 0.0 0.0 -0.0
 # Szybowczyk 1
 OBJECT_SHARED Models/Weremien/ask21-red.ac 22.319956 49.446530 405 0.0 0.0 -0.0
 # Szybowczyk 2
 OBJECT_SHARED Models/Weremien/ask21-red.ac 22.320570 49.446728 402.4202 58.0 0.0 -0.0
+
+# Hangar
+OBJECT_SHARED Models/Weremien/LIME_hangarsemicircular.ac 22.319614 49.445475 406 32.0 0.0 -0.0
+# Kamper
+OBJECT_SHARED /home/otwieracz/dev/custom-scenery-polish/Scenery/Models/Weremien/truck.xml 22.31980931 49.44575022 409.8226 24.0 0.0 -0.0
+# Vectra
+OBJECT_SHARED /home/otwieracz/dev/custom-scenery-polish/Scenery/Models/Weremien/hatchback_silver.ac 22.31989204 49.44566298 409.8842 312.0 0.0 -0.0
+# A'la jak
+OBJECT_SHARED Models/Weremien/dhc2-baroudeur.ac 22.31959896 49.44566656 411.5517 0.0 0.0 -0.0
 
 # Wyciagara
 OBJECT_SHARED Models/Weremien/coleman-tow-tractor-odrab-low-poly.xml 22.31492615 49.44342204 472.7876 304.0 0.0 -0.0
@@ -39,3 +44,17 @@ OBJECT_SHARED Models/Weremien/germansemidetached2.ac 22.324327 49.448178 385.734
 OBJECT_SHARED Models/Weremien/germansemidetached2.ac 22.318028 49.446749 411.8348 0.0 0.0 -0.0
 OBJECT_SHARED Models/Weremien/germansemidetached2.ac 22.318075 49.446653 411.8548 90.0 0.0 -0.0
 
+## Wyciag
+# slupy
+OBJECT_SHARED Models/Random/Transmission_25m_Steel_H.ac 22.31798878 49.44661321 407.4630 30.0 0.0 -0.0
+OBJECT_SHARED Models/Random/Transmission_25m_Steel_H.ac 22.31752012 49.44635355 413.3339 30.0 0.0 -0.0
+OBJECT_SHARED Models/Random/Transmission_25m_Steel_H.ac 22.31699057 49.44606518 420.1505 30.0 0.0 -0.0
+OBJECT_SHARED Models/Random/Transmission_25m_Steel_H.ac 22.31642906 49.44574998 427.8586 30.0 0.0 -0.0
+OBJECT_SHARED Models/Random/Transmission_25m_Steel_H.ac 22.31590151 49.44542287 435.4269 30.0 0.0 -0.0
+OBJECT_SHARED Models/Random/Transmission_25m_Steel_H.ac 22.31533644 49.44508965 443.3510 30.0 0.0 -0.0
+OBJECT_SHARED Models/Random/Transmission_25m_Steel_H.ac 22.31479708 49.44474781 452.5232 30.0 0.0 -0.0
+OBJECT_SHARED Models/Random/Transmission_25m_Steel_H.ac 22.31426410 49.44442233 461.3405 30.0 0.0 -0.0
+OBJECT_SHARED Models/Random/Transmission_25m_Steel_H.ac 22.31374701 49.44410266 471.5220 30.0 0.0 -0.0
+OBJECT_SHARED Models/Random/Transmission_25m_Steel_H.ac 22.31305650 49.44368389 486.8018 30.0 0.0 -0.0
+OBJECT_SHARED Models/Random/Transmission_25m_Steel_H.ac 22.31244286 49.44327683 498.0739 30.0 0.0 -0.0
+OBJECT_SHARED Models/Random/Transmission_25m_Steel_H.ac 22.31203290 49.44293867 523.1769 30.0 0.0 -0.0
