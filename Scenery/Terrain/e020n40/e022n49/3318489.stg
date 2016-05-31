@@ -4,8 +4,7 @@ OBJECT EP68.btg
 # e020n40/e022n49/3318489.stg
 
 ## Kwadrat
-# Pagorek
-OBJECT_SHARED Models/Weremien/pagorek.ac 22.3203130 49.4466610 402.2837 0.0 0.0 -0.0
+# Pagorek OBJECT_SHARED Models/Weremien/pagorek.ac 22.3203130 49.4466610 402.2837 0.0 0.0 -0.0
 # Rekaw
 OBJECT_SHARED Models/Airport/windsock.xml 22.3203130 49.4466610 405.2837 0.0 0.0 -0.0
 # Stol
@@ -20,9 +19,9 @@ OBJECT_SHARED Models/Weremien/ask21-red.ac 22.320570 49.446728 402.4202 58.0 0.0
 # Hangar
 OBJECT_SHARED Models/Weremien/LIME_hangarsemicircular.ac 22.319614 49.445475 406 32.0 0.0 -0.0
 # Kamper
-OBJECT_SHARED /home/otwieracz/dev/custom-scenery-polish/Scenery/Models/Weremien/truck.xml 22.31980931 49.44575022 409.8226 24.0 0.0 -0.0
+OBJECT_SHARED Models/Weremien/truck.xml 22.31980931 49.44575022 409.8226 24.0 0.0 -0.0
 # Vectra
-OBJECT_SHARED /home/otwieracz/dev/custom-scenery-polish/Scenery/Models/Weremien/hatchback_silver.ac 22.31989204 49.44566298 409.8842 312.0 0.0 -0.0
+OBJECT_SHARED Models/Weremien/hatchback_silver.ac 22.31989204 49.44566298 409.8842 312.0 0.0 -0.0
 # A'la jak
 OBJECT_SHARED Models/Weremien/dhc2-baroudeur.ac 22.31959896 49.44566656 411.5517 0.0 0.0 -0.0
 
