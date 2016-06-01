@@ -29,6 +29,13 @@
   </animation>
 
   <animation>
+    <type>scale</type>
+    <x-offset>1.2</x-offset>
+    <y-offset>1.2</y-offset>
+    <z-offset>1.2</z-offset>
+  </animation>
+
+  <animation>
     <type>material</type>
     <object-name>germansemidetached2</object-name>
     <condition>

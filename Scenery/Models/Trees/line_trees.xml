@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+  <path>line_trees.ac</path>
+  <animation>
+    <type>scale</type>
+    <x-offset>1.5</x-offset>
+    <y-offset>1.5</y-offset>
+    <z-offset>1.5</z-offset>
+  </animation>
+
+   <path>large_tree_erected.ac</path>
+    <effect>
+     <inherits-from>Effects/model-transparent</inherits-from>
+      <object-name>Mesh.000</object-name>
+    <condition>
+      <property>sim/rendering/rembrandt/enabled</property>
+    </condition>
+   </effect>
+
+</PropertyList>

@@ -1,9 +1,6 @@
-<?xml version="1.0"?>
-
+<?xml version="1.0" encoding="UTF-8" ?>
 <PropertyList>
-
-  <path>germanvillagehouse3.ac</path>
-
+  <path>zone_maisons_long.ac</path>
   <animation>
     <type>range</type>
     <min-m>0</min-m>
@@ -12,7 +9,7 @@
 	
   <animation> 
     <type>textranslate</type> 
-    <object-name>germanvillagehouse3</object-name> 
+    <object-name>jour</object-name> 
     <property>/sim/time/sun-angle-rad</property>
     <step> 1.57 </step>
     <factor>0.318471338</factor>
@@ -29,15 +26,8 @@
   </animation>
 
   <animation>
-    <type>scale</type>
-    <x-offset>1.2</x-offset>
-    <y-offset>1.2</y-offset>
-    <z-offset>1.2</z-offset>
-  </animation>
- 
-  <animation>
     <type>material</type>
-    <object-name>germanvillagehouse3</object-name>
+    <object-name>jour</object-name>
     <condition>
       <greater-than>
         <property>/sim/time/sun-angle-rad</property>
@@ -53,7 +43,7 @@
 
   <animation>
     <type>material</type>
-    <object-name>germanvillagehouse3</object-name>
+    <object-name>jour</object-name>
     <condition>
       <less-than-equals>
         <property>/sim/time/sun-angle-rad</property>
@@ -66,5 +56,4 @@
       <blue>  0.0 </blue>
     </emission>
   </animation>
-
 </PropertyList>

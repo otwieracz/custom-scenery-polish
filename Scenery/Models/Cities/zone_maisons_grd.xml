@@ -1,18 +1,15 @@
-<?xml version="1.0"?>
-
+<?xml version="1.0" encoding="UTF-8" ?>
 <PropertyList>
-
-  <path>germanvillagehouse3.ac</path>
-
+  <path>zone_maisons_grd.ac</path>
   <animation>
     <type>range</type>
     <min-m>0</min-m>
     <max-property>sim/rendering/static-lod/bare</max-property>
   </animation>
-	
-  <animation> 
-    <type>textranslate</type> 
-    <object-name>germanvillagehouse3</object-name> 
+
+  <animation>
+    <type>textranslate</type>
+    <object-name>jour</object-name>
     <property>/sim/time/sun-angle-rad</property>
     <step> 1.57 </step>
     <factor>0.318471338</factor>
@@ -21,23 +18,16 @@
      <y-m> 0 </y-m>
      <z-m> 0 </z-m>
     </center>
-    <axis> 
-      <x> -1 </x> 
-      <y>  0 </y> 
-      <z>  0 </z> 
-    </axis> 
+    <axis>
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
   </animation>
 
   <animation>
-    <type>scale</type>
-    <x-offset>1.2</x-offset>
-    <y-offset>1.2</y-offset>
-    <z-offset>1.2</z-offset>
-  </animation>
- 
-  <animation>
     <type>material</type>
-    <object-name>germanvillagehouse3</object-name>
+    <object-name>jour</object-name>
     <condition>
       <greater-than>
         <property>/sim/time/sun-angle-rad</property>
@@ -53,7 +43,7 @@
 
   <animation>
     <type>material</type>
-    <object-name>germanvillagehouse3</object-name>
+    <object-name>jour</object-name>
     <condition>
       <less-than-equals>
         <property>/sim/time/sun-angle-rad</property>
@@ -66,5 +56,4 @@
       <blue>  0.0 </blue>
     </emission>
   </animation>
-
 </PropertyList>
