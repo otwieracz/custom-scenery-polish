@@ -5,8 +5,8 @@ OBJECT_SHARED Models/Airport/windsock.xml 22.406401 49.513308 448.9 0.00
 
 # Hotel, restauracja na gorze
 OBJECT_SHARED Models/Bezmiechowa/tecalemit.xml 22.41214393 49.52139600 582.5947 68.0 0.0 -0.0
-OBJECT_SHARED Models/Bezmiechowa/germansemidetached2.xml 22.40981893 49.52178283 583.2698 256.0 0.0 -0.0
+OBJECT_SHARED Models/Bezmiechowa/germansemidetached2.xml 22.40981893 49.52178283 585.2698 256.0 0.0 -0.0
 OBJECT_SHARED Models/Airport/windsock.xml 22.41082961 49.52113143 577.0956 0.0 0.0 -0.0
 OBJECT_SHARED Models/Trees/line_trees.xml 22.41092021 49.52206369 588.3570 84.0 0.0 -0.0
 OBJECT_SHARED Models/Trees/line_trees.xml 22.41047554 49.52241096 592.2377 72.0 0.0 -0.0
-OBJECT_SHARED Models/Agriculture/farmhouse1.ac 22.41001506 49.52199029 588.2026 0.0 0.0 -0.0
+OBJECT_SHARED Models/Agriculture/farmhouse1.ac 22.41001506 49.52199029 589.8026 0.0 0.0 -0.0
