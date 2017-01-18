@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+  <name type="string">3Dconnexion SpaceMouse Wireless Receiver</name>
+  <axis>
+    <desc type="string">Aileron</desc>
+    <binding>
+      <command type="string">property-scale</command>
+      <property type="string">/controls/flight/aileron</property>
+      <squared type="bool">true</squared>
+      <setting type="double">0</setting>
+    </binding>
+  </axis>
+  <axis n="1">
+    <desc type="string">Elevator</desc>
+    <binding>
+      <command type="string">property-scale</command>
+      <property type="string">/controls/flight/elevator</property>
+      <factor type="double">-1</factor>
+      <offset type="double">0</offset>
+    </binding>
+  </axis>
+  <axis n="2">
+    <desc type="string">Throttle</desc>
+    <binding>
+      <command type="string">nasal</command>
+      <script type="string">controls.throttleAxis();</script>
+    </binding>
+  </axis>
+  <button>
+    <desc type="string">Brakes</desc>
+    <repeatable type="string">false</repeatable>
+    <binding>
+      <command type="string">nasal</command>
+      <script type="string">controls.applyBrakes(1);</script>
+    </binding>
+    <mod-up>
+      <binding>
+        <command type="string">nasal</command>
+        <script type="string">controls.applyBrakes(0);</script>
+      </binding>
+    </mod-up>
+  </button>
+  <button n="1">
+    <desc type="string">Elevator Trim Down</desc>
+    <binding>
+      <command type="string">nasal</command>
+      <script type="string">controls.elevatorTrim(1);</script>
+    </binding>
+    <repeatable type="double">1</repeatable>
+  </button>
+  <button n="2">
+    <desc type="string">Elevator Trim Up</desc>
+    <binding>
+      <command type="string">nasal</command>
+      <script type="string">controls.elevatorTrim(-1);</script>
+    </binding>
+    <repeatable type="double">1</repeatable>
+  </button>
+</PropertyList>
