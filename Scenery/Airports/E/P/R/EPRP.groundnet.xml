@@ -1,12 +1,8 @@
 <?xml version="1.0"?>
 <groundnet>
-   <version>1</version>
-  <frequencies>
-  </frequencies>
+  <version>1</version>
   <parkingList>
-  </parkingList>
-  <TaxiNodes>
-  </TaxiNodes>
-  <TaxiWaySegments>
-  </TaxiWaySegments>
+        <Parking index="0" type="gate" name="Parking" lat="N51 29.074226" lon="E21 6.775192" heading="73.85"  radius="17" airlineCodes="" />
+        <Parking index="1" type="gate" name="Parking2" lat="N51 29.087254" lon="E21 6.821294" heading="256.18"  radius="17" airlineCodes="" />
+ </parkingList>
 </groundnet>

@@ -1,30 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <groundnet>
-   <version>1</version>
-  <frequencies>
-    <TOWER></TOWER>
-  </frequencies>
+  <version>1</version>
   <parkingList>
-1300  53.51517451  016.29587625 357.23 misc jets 28
-    <Parking index="0"
-             type="ga"
-             name="10"
-             number=""
-             lat="N53 31.184"
-             lon="E16 16.010"
-             heading="30.19"
-             radius="17.3"
-             airlineCodes="" />
-
-    <Parking index="0"
-             type="ga"
-             name="28"
-             number=""
-             lat="N53 30.910"
-             lon="E16 17.752"
-             heading="357.23"
-             radius="17.3"
-             airlineCodes="" />
-
-  </parkingList>
+        <Parking index="0" type="gate" name="Parking10" lat="N53 31.176970" lon="E16 16.006627" heading="30.19"  radius="10" airlineCodes="" />
+        <Parking index="1" type="gate" name="Parking28" lat="N53 30.901801" lon="E16 17.752994" heading="357.23"  radius="10" airlineCodes="" />
+ </parkingList>
 </groundnet>

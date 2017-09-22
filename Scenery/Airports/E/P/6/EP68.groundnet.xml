@@ -1,44 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <groundnet>
-   <version>1</version>
-  <frequencies>
-    <TOWER>12230</TOWER>
-  </frequencies>
+  <version>1</version>
   <parkingList>
-    <Parking index="0"
-             type="ga"
-             name="1"
-             number=""
-             lat="N49 26.819"
-             lon="E22 19.159"
-             heading="137.82"
-             radius="17.3"
-             airlineCodes="" />
-
-    <Parking index="1"
-             type="ga"
-             name="2"
-             number=""
-             lat="N49 26.833"
-             lon="E22 19.181"
-             heading="131.06"
-             radius="17.3"
-             airlineCodes="" />
-
-    <Parking index="2"
-             type="gate"
-             name="3"
-             number=""
-             lat="N49 26.848"
-             lon="E22 19.205"
-             heading="130.37"
-             radius="17.3"
-             airlineCodes="" />
-
-  </parkingList>
-  <TaxiNodes>
-  </TaxiNodes>
-  <TaxiWaySegments>
-  </TaxiWaySegments>
+        <Parking index="0" type="ga" name="2" lat="N49 26.790581" lon="E22 19.199864" heading="163.12"  radius="10" airlineCodes="" />
+        <Parking index="1" type="ga" name="1" lat="N49 26.782603" lon="E22 19.183955" heading="172.72"  radius="10" airlineCodes="" />
+ </parkingList>
 </groundnet>
-
